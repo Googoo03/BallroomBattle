@@ -10,6 +10,9 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+/Library/
+/Library/PackageCache/
+
 /Library/Bee/TundraBuildState.state/
 /Library/Bee/fullprofile.json/
 /Library/Bee/tundra.digestcache/
