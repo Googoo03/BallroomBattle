@@ -1,6 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="player1" ID="{3ABD74E1-39E2-4CAD-A692-D96C884C2A4E}" ShortID="68541194">
+					<ChildrenList>
+						<Event Name="p1_charge" ID="{BB319181-B2C5-4C56-95E4-EB8D97E92220}">
+							<ChildrenList>
+								<Action Name="" ID="{558ABCA4-8D4A-4DC2-AAF9-60E7A25B652F}" ShortID="383028043">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_1_charge" ID="{EDAB5D34-FB2E-41E1-8904-B352FD5BE33A}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p1_attack" ID="{C78EBB24-AFB1-4159-ADD4-C3811A26942F}">
+							<ChildrenList>
+								<Action Name="" ID="{D2BB5D59-60A6-4A07-AD3B-7D2D1C2C374D}" ShortID="351647136">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_1_ability_attack" ID="{E195B211-B592-4AC9-8CB4-240C539AB373}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p1_defend" ID="{B9E4F855-E396-45C0-A4DC-4CA2FAAD1644}">
+							<ChildrenList>
+								<Action Name="" ID="{12E16606-758E-409B-9AD5-65B9C357850A}" ShortID="1019894619">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_1_ability_defend" ID="{9B3DECBE-1CB0-47C0-83C7-6084EB63D703}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p1_miss" ID="{B40B1F03-3D69-48A9-97B7-3F374008B0DA}"/>
+						<Event Name="p1_special" ID="{8C263D8F-97D5-4F66-86D8-998492030E64}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="player2" ID="{A7E0398E-D0DE-4FD4-82D3-AAE11A04B643}" ShortID="747965071">
+					<ChildrenList>
+						<Event Name="p2_attack" ID="{2A7C3144-EF94-4265-98CD-9006B601614F}">
+							<ChildrenList>
+								<Action Name="" ID="{CE52A06D-BE44-417C-8A6E-C2EB56F1CD64}" ShortID="811812702">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_2_ability_attack" ID="{B340E86B-7FE1-447B-B994-79F4DC7F64E3}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p2_charge" ID="{B0048644-4FED-4A49-9F3C-2479CDCDABE5}">
+							<ChildrenList>
+								<Action Name="" ID="{1D95669B-0A50-4045-A44E-A118B01464AB}" ShortID="313392991">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_2_charge" ID="{41EEDA02-06DB-48E0-8780-42CA9FC0E1AD}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p2_defend" ID="{18AA1A5A-7310-4899-A960-39DBDFAF1BB9}">
+							<ChildrenList>
+								<Action Name="" ID="{F7856B99-BD83-4B5E-8165-8647D4D0DBBB}" ShortID="686540852">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_2_ability_defend" ID="{ABA12F2D-8A6B-49A0-8772-8B922304FBC0}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p2_special" ID="{5F67AADF-955B-4767-9B86-1B1467078B43}">
+							<ChildrenList>
+								<Action Name="" ID="{67093480-8DFF-44F8-B59D-49594A813BB0}" ShortID="569460844">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_2_ability_special" ID="{4CE2814C-D18D-41DE-B6FE-20DC80B006F8}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p2_miss" ID="{A2B3EADD-E752-4314-84FA-7C10213AA25A}">
+							<ChildrenList>
+								<Action Name="" ID="{9BA2E563-72D0-470D-B2B3-455F244837AD}" ShortID="730219777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_2_charge_fail" ID="{493AC1B3-D350-409B-8F9E-F04872B794F1}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{41166F31-D62E-4C72-8AAA-A6B80D7FEC29}" ShortID="373491232">
+					<ChildrenList>
+						<Event Name="ui_click" ID="{17464253-0AAF-44E8-8D1D-323672C42A52}">
+							<ChildrenList>
+								<Action Name="" ID="{DF20688B-F1A9-49FC-8E17-3ED4E9E02077}" ShortID="746732270">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_button_press" ID="{B5BD86F8-3EC7-4F85-8E38-964A601A685C}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="player_death" ID="{4DA8541C-A4A0-4E14-8833-DABECE7AFCE1}">
+					<ChildrenList>
+						<Action Name="" ID="{E99A779F-A797-48D8-A7F1-9D246AB0F359}" ShortID="1040700253">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player__death" ID="{BD466E44-A459-4317-BF5A-C438D077FAF8}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
