@@ -10,6 +10,15 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+/Library/Bee/TundraBuildState.state/
+/Library/Bee/fullprofile.json/
+/Library/Bee/tundra.digestcache/
+/Library/Bee/tundra.log.json/
+/Library/SceneVisibilityState.asset/
+/Library/Search/transactions.db/
+/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json/
+/Library/StateCache/SceneView/63/636c33ce2182d14b735fd35d286364cf.json/
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
