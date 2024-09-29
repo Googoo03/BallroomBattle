@@ -460,6 +460,10 @@ MonoBehaviour:
   title_screen: {fileID: 634272529}
   win_screen: {fileID: 1529002057}
   pause: 1
+  game_win:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2d79fb7d8c2f89d468677895082456a4, type: 2}
 --- !u!4 &254507220
 Transform:
   m_ObjectHideFlags: 0
@@ -4012,7 +4016,6 @@ GameObject:
   - component: {fileID: 1529002063}
   - component: {fileID: 1529002062}
   - component: {fileID: 1529002061}
-  - component: {fileID: 1529002060}
   m_Layer: 5
   m_Name: Win_Screen
   m_TagString: Untagged
@@ -4041,34 +4044,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1920, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1529002060
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529002057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d7e62a843ee334db82868e576f8956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e0a83f0a70928b2428446fe8f6989aea, type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
 --- !u!114 &1529002061
 MonoBehaviour:
   m_ObjectHideFlags: 0

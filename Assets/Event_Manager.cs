@@ -30,6 +30,8 @@ public class Event_Manager : MonoBehaviour
 
     public void setPause(bool p) { pause = p; }
 
+    public AK.Wwise.Event game_win;
+
     void Start()
     {
         //Pause 
@@ -66,6 +68,7 @@ public class Event_Manager : MonoBehaviour
         if (boss.getHealth() <= 0) { 
             pause = true;
             //activate win screen
+            game_win.Post(gameObject);
             win_screen.GetComponent<Animator>().SetTrigger("Win");
         }
 
