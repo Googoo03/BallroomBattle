@@ -14,6 +14,8 @@ public class Event_Manager : MonoBehaviour
     [SerializeField] private bool next_turn;
 
     [SerializeField] private Player_Input_Manager player;
+    [SerializeField] private Enemy_Manager boss;
+
     [SerializeField] private GameObject test_turn_marker;
     [SerializeField] private GameObject timer;
 
@@ -23,6 +25,14 @@ public class Event_Manager : MonoBehaviour
 
     void Start()
     {
+
+        //Set up initial params and unlock player
+        current_turn = turns.PLAYER;
+        test_turn_marker.GetComponent<Text>().text = current_turn.ToString();
+
+        if (current_turn == turns.PLAYER) player.setCan_Input(true);
+        //-------------------------------------
+
         next_turn = false;
     }
 
@@ -38,10 +48,18 @@ public class Event_Manager : MonoBehaviour
         current_turn = current_turn == turns.ENEMY ? turns.PLAYER : turns.ENEMY; //switch the turns
 
         //if the enemy's turn, dispatch the enemy
-        if (current_turn == turns.ENEMY) player.setCan_Input(false);
+        if (current_turn == turns.ENEMY)
+        {
+            player.setCan_Input(false);
+            boss.setCan_Input(true);
+        }
 
         //other dispatch player
-        if (current_turn == turns.PLAYER) player.setCan_Input(true);
+        if (current_turn == turns.PLAYER)
+        {
+            player.setCan_Input(true);
+            boss.setCan_Input(false);
+        }
 
         test_turn_marker.GetComponent<Text>().text = current_turn.ToString();
 
@@ -56,7 +74,20 @@ public class Event_Manager : MonoBehaviour
         if (t_timer < 0)
         {
             //t_timer = 1;
+            if (current_turn == turns.PLAYER) player.endTurn(); //ends player turn and applies any damage
             Next_Turn();
+        }
+    }
+
+    public void applyDamage(int damage) {
+        if (current_turn == turns.ENEMY)
+        {
+            //apply damage to player
+            player.dealDamage(damage);
+        }
+        else {
+            //apply damage to enemy
+            boss.dealDamage(damage);
         }
     }
 }
