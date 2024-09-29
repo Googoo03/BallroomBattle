@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Player_Input_Manager : MonoBehaviour
 {
     // Start is called before the first frame update
-    private const int max_arrows = 6;
+    private const int max_arrows = 5;
 
     private Color[] colors = new Color[4] { Color.red,Color.blue,Color.green,Color.yellow };
 
@@ -72,7 +72,7 @@ public class Player_Input_Manager : MonoBehaviour
                 Arrow arrow = arrow_list[i][j];
 
                 arrow.setRotation(rot);
-                arrow.setColor(colors[rand]);
+                //arrow.setColor(colors[rand]);
             }
         }
     }
