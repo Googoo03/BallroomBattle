@@ -105,8 +105,15 @@ public class Player_Input_Manager : MonoBehaviour
         //When it's our turn
         trackPlayerInput();
 
+        int softlockSum = 0;
+        for (int i = 0; i < 3; ++i) {
+            softlockSum += player1_progress[i];
+            softlockSum += player2_progress[i];
+        }
+        //if (softlockSum == -6) event_manager.Next_Turn(); //soft lock, players incorrectly input all combinations
+
         //if both players are done, change turn
-        if (player1_done && player2_done)
+        if (player1_done && player2_done || softlockSum == -6)
         {
             event_manager.Next_Turn();
             generateNewArrows();
@@ -158,6 +165,7 @@ public class Player_Input_Manager : MonoBehaviour
             }
             else if(player1_dir != -1){
                 player1_progress[i] = -1;
+                //RUMBLE CURRENT ARROW USING ANIMATIONS
             }
         }
         //---------------------------------------------------------------------------
@@ -205,10 +213,13 @@ public class Player_Input_Manager : MonoBehaviour
             }
         }
         //---------------------------------------------------------------------------
+
+
+
     }
 
-    public void setCan_Input() {
-        can_input = true;
+    public void setCan_Input(bool set) {
+        can_input = set;
 
         //reset damage value
         damageDealt = 0;

@@ -15,8 +15,11 @@ public class Event_Manager : MonoBehaviour
 
     [SerializeField] private Player_Input_Manager player;
     [SerializeField] private GameObject test_turn_marker;
+    [SerializeField] private GameObject timer;
 
-    public void Next_Turn() { next_turn = true; }
+    private float t_timer = 1;
+
+    public void Next_Turn() { next_turn = true; t_timer = 1; }
 
     void Start()
     {
@@ -26,19 +29,34 @@ public class Event_Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Timer Protocol
+        timerProtocol();
+
+
         if (!next_turn) return;
 
         current_turn = current_turn == turns.ENEMY ? turns.PLAYER : turns.ENEMY; //switch the turns
 
         //if the enemy's turn, dispatch the enemy
-
+        if (current_turn == turns.ENEMY) player.setCan_Input(false);
 
         //other dispatch player
-        if (current_turn == turns.PLAYER) player.setCan_Input();
+        if (current_turn == turns.PLAYER) player.setCan_Input(true);
 
         test_turn_marker.GetComponent<Text>().text = current_turn.ToString();
 
         //set the next_turn to false
         next_turn = false; 
+    }
+
+    private void timerProtocol() {
+        t_timer -= 0.1f * Time.deltaTime;
+        timer.GetComponent<Slider>().value = t_timer;
+
+        if (t_timer < 0)
+        {
+            //t_timer = 1;
+            Next_Turn();
+        }
     }
 }
