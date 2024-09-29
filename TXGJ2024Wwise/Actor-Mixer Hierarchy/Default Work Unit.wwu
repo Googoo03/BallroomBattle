@@ -20,6 +20,7 @@
 										<Value>-1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -38,6 +39,31 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{786CADDB-16C9-4382-AE1A-FE43A93AD2E4}" ShortID="676393396">
+												<PropertyList>
+													<Property Name="Render" Type="bool" Value="True"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Matrix Reverb (Custom)" ID="{48488542-3875-4DE7-AD26-B90BD18C7623}" ShortID="520846703" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+																<PropertyList>
+																	<Property Name="ReverbTime" Type="Real32" Value="0.6"/>
+																	<Property Name="WetLevel" Type="Real32" Value="-14"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="UI_button_press" ID="{B521C769-CF7D-4093-980B-FDAE8097693D}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -399,6 +425,11 @@
 						</ActorMixer>
 						<ActorMixer Name="players specific" ID="{4EB8ECD6-7A7A-4129-901E-79E042895918}" ShortID="491609095">
 							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -425,6 +456,7 @@
 								<RandomSequenceContainer Name="player_2_grunt" ID="{65660C3B-01A5-49DA-A383-8302C0A12459}" ShortID="568858720">
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -500,6 +532,7 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -737,6 +770,17 @@
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
 												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

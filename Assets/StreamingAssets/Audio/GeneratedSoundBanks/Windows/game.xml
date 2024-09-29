@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="153">
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{389B4718-DEC7-C544-319F-DDA2FBF73772}">
+		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{467B532A-131D-4FFE-E83D-25DCFAA6E3D4}">
 			<ObjectPath>\SoundBanks\Default Work Unit\game</ObjectPath>
 			<ShortName>game</ShortName>
 			<Path>game.bnk</Path>
@@ -64,7 +64,7 @@
 				</File>
 				<File Id="550481749" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_button_press.wav</ShortName>
-					<CachePath>44/{4435A184-F40B-A7F2-FCFF-98E6CFD336DD}.wem</CachePath>
+					<CachePath>8F/{8F2C6BA4-56F4-631E-600B-7752951EF299}.wem</CachePath>
 				</File>
 				<File Id="558092212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>monster_LOOP.wav</ShortName>
@@ -267,5 +267,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0D215395-FF47-B444-5CD6-7CB20D9FE97F}</FileHash>
+	<FileHash>{BEF8FB40-B055-04C4-EDCD-9E52637F6D5C}</FileHash>
 </SoundBanksInfo>

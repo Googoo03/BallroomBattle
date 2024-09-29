@@ -46,7 +46,7 @@
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="player_death" ID="{BD466E44-A459-4317-BF5A-C438D077FAF8}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+							<ObjectRef Name="player_death" ID="{4DA8541C-A4A0-4E14-8833-DABECE7AFCE1}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
 							<Position X="1" Y="5"/>
 						</Module>
 						<Module>
@@ -68,7 +68,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{4306E4C3-52B0-4A7F-97CE-93785F390E0D}"/>
+						<CurrentStateRef Name="win" ID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
