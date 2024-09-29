@@ -94,7 +94,7 @@ public class Player_Input_Manager : MonoBehaviour
 
                 arrow.setRotation(rot);
                 arrow.setColor(Color.red);
-                if(!initialize) arrow.gameObject.GetComponent<Animator>().SetTrigger("Reset");
+                if(arrow.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Arrow_Shake")) arrow.gameObject.GetComponent<Animator>().SetTrigger("Reset");
             }
         }
     }

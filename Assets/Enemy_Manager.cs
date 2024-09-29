@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy_Manager : MonoBehaviour
 {
     // Start is called before the first frame update
     private bool can_input;
     [SerializeField] private int health;
+    private const int max_health = 500;
     private int damageDealt;
 
     [SerializeField] private Event_Manager event_manager;
+    [SerializeField] private GameObject health_bar;
     void Start()
     {
         can_input = false;
@@ -49,5 +52,6 @@ public class Enemy_Manager : MonoBehaviour
     public void dealDamage(int damage)
     {
         health -= damage;
+        health_bar.GetComponent<Slider>().value = (float)health/(float)max_health;
     }
 }
