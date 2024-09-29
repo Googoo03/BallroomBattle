@@ -7,12 +7,14 @@ public class Arrow : MonoBehaviour
 {
     // Start is called before the first frame update
     private Color _color;
-    private float _rotation; //corresponds to the z axis in rotation. -z is clockwise rotation
+    [SerializeField] private float _rotation; //corresponds to the z axis in rotation. -z is clockwise rotation
 
     public void setColor(Color col) {
         _color = col;
         this.GetComponent<Image>().color = _color;
     }
+
+    public float getRotation() { return _rotation; }
 
     public void setRotation(float rotation)
     {

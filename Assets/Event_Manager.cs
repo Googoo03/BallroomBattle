@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Event_Manager : MonoBehaviour
 {
@@ -10,7 +11,10 @@ public class Event_Manager : MonoBehaviour
         PLAYER
     }
     private turns current_turn = turns.PLAYER;
-    private bool next_turn;
+    [SerializeField] private bool next_turn;
+
+    [SerializeField] private Player_Input_Manager player;
+    [SerializeField] private GameObject test_turn_marker;
 
     public void Next_Turn() { next_turn = true; }
 
@@ -24,6 +28,17 @@ public class Event_Manager : MonoBehaviour
     {
         if (!next_turn) return;
 
-        //This is where all the 
+        current_turn = current_turn == turns.ENEMY ? turns.PLAYER : turns.ENEMY; //switch the turns
+
+        //if the enemy's turn, dispatch the enemy
+
+
+        //other dispatch player
+        if (current_turn == turns.PLAYER) player.setCan_Input();
+
+        test_turn_marker.GetComponent<Text>().text = current_turn.ToString();
+
+        //set the next_turn to false
+        next_turn = false; 
     }
 }
