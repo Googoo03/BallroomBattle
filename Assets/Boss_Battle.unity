@@ -457,6 +457,8 @@ MonoBehaviour:
   boss: {fileID: 1042860454}
   test_turn_marker: {fileID: 1080487155}
   timer: {fileID: 416388013}
+  title_screen: {fileID: 634272529}
+  pause: 1
 --- !u!4 &254507220
 Transform:
   m_ObjectHideFlags: 0
@@ -1361,6 +1363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d18d5251cc7eb94bb890b4d61f62505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  event_manager: {fileID: 254507219}
   button_press:
     idInternal: 0
     valueGuidInternal: 

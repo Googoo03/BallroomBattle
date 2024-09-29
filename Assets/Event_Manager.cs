@@ -18,13 +18,20 @@ public class Event_Manager : MonoBehaviour
 
     [SerializeField] private GameObject test_turn_marker;
     [SerializeField] private GameObject timer;
+    [SerializeField] private GameObject title_screen;
+
+    [SerializeField] private bool pause = true;
 
     private float t_timer = 1;
 
     public void Next_Turn() { next_turn = true; t_timer = 1; }
 
+    public void setPause(bool p) { pause = p; }
+
     void Start()
     {
+        //Pause 
+        pause = true;
 
         //Set up initial params and unlock player
         current_turn = turns.PLAYER;
@@ -39,6 +46,23 @@ public class Event_Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pause = !pause;
+            if (pause)
+            {
+                title_screen.GetComponent<Animator>().SetTrigger("Close");
+            }
+            else {
+
+                title_screen.GetComponent<Animator>().SetTrigger("Open");
+            }
+            
+        }
+
+        if (pause) return;
+
         //Timer Protocol
         timerProtocol();
 
