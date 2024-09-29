@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="Web" BasePlatform="Web">
+	<PluginLibs>
+		<PluginLib LibName="Wwise Compressor" LibId="7077891" Type="Effect" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
+		<PluginLib LibName="Wwise Gain" LibId="9109507" Type="Effect" DLL="AkGain" StaticLib="AkGainFX"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{BEF777D9-D3F5-7547-05D5-2BBB5EA1740F}</FileHash>
+</PluginInfo>

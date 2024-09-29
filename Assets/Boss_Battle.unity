@@ -1436,6 +1436,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d18d5251cc7eb94bb890b4d61f62505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button_press:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f20f7784add9c794a94a693caaf1eed0, type: 2}
+  start_fight:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 73626fe314c4a5c4681076eefb5f9f30, type: 2}
 --- !u!114 &634272535
 MonoBehaviour:
   m_ObjectHideFlags: 0
