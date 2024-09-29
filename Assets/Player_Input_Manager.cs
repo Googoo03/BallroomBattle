@@ -24,6 +24,8 @@ public class Player_Input_Manager : MonoBehaviour
 
     [SerializeField] private Event_Manager event_manager;
 
+    [SerializeField] private float damageDealt;
+
 
     //At the moment, there are 6 entries, 0,1,2 correspond to player 1's attack,defend,special respectively. The latter are palyer 2's
     private List<Arrow[]> arrow_list = new List<Arrow[]>();
@@ -84,7 +86,7 @@ public class Player_Input_Manager : MonoBehaviour
                 Arrow arrow = arrow_list[i][j];
 
                 arrow.setRotation(rot);
-                //arrow.setColor(colors[rand]);
+                arrow.setColor(Color.red);
             }
         }
     }
@@ -107,6 +109,11 @@ public class Player_Input_Manager : MonoBehaviour
         if (player1_done && player2_done)
         {
             event_manager.Next_Turn();
+            generateNewArrows();
+
+            //calculate total damage and apply to boss through e_m
+
+
             player1_done = false;
             player2_done = false;
         }
@@ -142,14 +149,22 @@ public class Player_Input_Manager : MonoBehaviour
             if (player1_dir == (int)(current_arrow.getRotation()) / 90 && player1_progress[i] != -1)
             {
                 player1_progress[i]++;
+
+                if (!player1_done && player1_progress[i] == max_arrows) accumulateDamage(i);
+
                 player1_done = player1_progress[i] == max_arrows ? true : player1_done;
                 player1_progress[i] = Mathf.Min(player1_progress[i], max_arrows - 1);
+                current_arrow.setColor(Color.white);
             }
             else if(player1_dir != -1){
                 player1_progress[i] = -1;
             }
         }
         //---------------------------------------------------------------------------
+
+
+
+
 
         //player2 input checking---------------------------------------------------------
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -177,8 +192,12 @@ public class Player_Input_Manager : MonoBehaviour
             if (player2_dir == (int)(current_arrow.getRotation()) / 90 && player2_progress[i] != -1)
             {
                 player2_progress[i]++;
+
+                if (!player2_done && player2_progress[i] == max_arrows) accumulateDamage(i);
+
                 player2_done = player2_progress[i] == max_arrows ? true : player2_done;
                 player2_progress[i] = Mathf.Min(player2_progress[i], max_arrows - 1);
+                current_arrow.setColor(Color.white);
             }
             else if(player2_dir != -1)
             {
@@ -191,8 +210,30 @@ public class Player_Input_Manager : MonoBehaviour
     public void setCan_Input() {
         can_input = true;
 
+        //reset damage value
+        damageDealt = 0;
+
         //resets the player progress
         player1_progress = new int[]{ 0,0,0};
         player2_progress = new int[] { 0, 0, 0 };
+    }
+
+    private void accumulateDamage(int index) {
+        int addend = 0;
+        switch (index)
+        {
+            case 0:
+                addend = 30;
+                break;
+            case 1:
+                addend = 0;
+                break;
+            case 2:
+                addend = 50;
+                break;
+            default:
+                break;
+        }
+        damageDealt += addend;
     }
 }
