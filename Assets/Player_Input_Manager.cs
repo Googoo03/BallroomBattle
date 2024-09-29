@@ -219,7 +219,7 @@ public class Player_Input_Manager : MonoBehaviour
                 if (!player2_done && player2_progress[i] == max_arrows) 
                 {   
                     accumulateDamage(i);
-                    playMoveSound(i, true);
+                    playMoveSound(i, false);
                 }
                 player2_done = player2_progress[i] == max_arrows ? true : player2_done;
                 player2_progress[i] = Mathf.Min(player2_progress[i], max_arrows - 1);
