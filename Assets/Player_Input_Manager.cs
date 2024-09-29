@@ -14,8 +14,12 @@ public class Player_Input_Manager : MonoBehaviour
     [SerializeField] private int[] player1_progress = new int[3]; //signifies the progress in the attacks
     [SerializeField] private int[] player2_progress = new int[3];
 
+    private enum dir { Up, Right, Down, Left};
+
     private GameObject player1_abilities;
     private GameObject player2_abilities;
+    [SerializeField] private GameObject p1_Sprite;
+    [SerializeField] private GameObject p2_Sprite;
 
     [SerializeField] private bool player1_done;
     [SerializeField] private bool player2_done; //these signify if the players have finished their inputs
@@ -168,6 +172,27 @@ public class Player_Input_Manager : MonoBehaviour
             {
                 player1_progress[i]++;
                 p_charge.Post(gameObject);
+
+                string dir = "";
+                switch (player1_dir)
+                {
+                    case 0:
+                        dir = "Up";
+                        break;
+                    case 1:
+                        dir = "Right";
+                        break;
+                    case 2:
+                        dir = "Down";
+                        break;
+                    case 3:
+                        dir = "Left";
+                        break;
+                    default:
+                        break;
+                }
+                p1_Sprite.GetComponent<Animator>().SetTrigger(dir);
+
                 if (!player1_done && player1_progress[i] == max_arrows) 
                 {
                     accumulateDamage(i);
@@ -216,6 +241,26 @@ public class Player_Input_Manager : MonoBehaviour
             {
                 player2_progress[i]++;
                 p_charge.Post(gameObject);
+
+                string dir = "";
+                switch (player2_dir) {
+                    case 0:
+                        dir = "Up";
+                        break;
+                    case 1:
+                        dir = "Right";
+                        break;
+                    case 2:
+                        dir = "Down";
+                        break;
+                    case 3:
+                        dir = "Left";
+                        break;
+                    default:
+                        break;
+                }
+                p2_Sprite.GetComponent<Animator>().SetTrigger(dir);
+
                 if (!player2_done && player2_progress[i] == max_arrows) 
                 {   
                     accumulateDamage(i);
