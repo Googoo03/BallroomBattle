@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8bec77cb8b5d0c84db9facfc6f783e6e
+guid: 36a1fb345d48b054788f394c1a0079a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -57,8 +57,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 13
-  flipbookColumns: 5
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_0
+      name: Boss Sprite Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b69090a6429a4648bbbde661847926b
-      internalID: 1007355285
+      spriteID: b54278202115e7c4280412951e9594f3
+      internalID: -1338792754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_1
+      name: Boss Sprite Sheet_1
       rect:
         serializedVersion: 2
         x: 1280
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47a6c9f74dfc074aa13f5d7d9a5edf9
-      internalID: -641329678
+      spriteID: d941bc414d149c84891f69b0d601a0dd
+      internalID: -1406577808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_2
+      name: Boss Sprite Sheet_2
       rect:
         serializedVersion: 2
         x: 2560
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c39e04ac7979d44681718617b87b381
-      internalID: 631598133
+      spriteID: d35a7c42f6a27174a84d751ce0b44f1b
+      internalID: -337852566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_3
+      name: Boss Sprite Sheet_3
       rect:
         serializedVersion: 2
         x: 3840
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a42523ff78952344820602dd44d337f
-      internalID: 350217443
+      spriteID: 67d68b3839b4532419be019badb993a4
+      internalID: -695139742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_4
+      name: Boss Sprite Sheet_4
       rect:
         serializedVersion: 2
         x: 5120
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a963e184f168d33489c3fbebd8c38101
-      internalID: -227800400
+      spriteID: 61415457748035e418c69e159c4f3141
+      internalID: 913775741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_5
+      name: Boss Sprite Sheet_5
       rect:
         serializedVersion: 2
         x: 0
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: babfdfd2869c00348b64a796f539e4c0
-      internalID: -1358821736
+      spriteID: 06641cee3d75a8a4f9b39dfff669a1cc
+      internalID: -1521973369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_6
+      name: Boss Sprite Sheet_6
       rect:
         serializedVersion: 2
         x: 1280
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2817317297ab6f43a280461eb309747
-      internalID: 1973184844
+      spriteID: c053a2dabe8c30747889798f91e4584d
+      internalID: -650597499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_7
+      name: Boss Sprite Sheet_7
       rect:
         serializedVersion: 2
         x: 2560
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17ef8d3f71aa0b5408c4b2a1fa72ef17
-      internalID: 304116885
+      spriteID: 91af5d65e06735742b6af007e93281e9
+      internalID: -878453689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_8
+      name: Boss Sprite Sheet_8
       rect:
         serializedVersion: 2
         x: 3840
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0152e9a9c88ed54408475b217314bb61
-      internalID: -444787189
+      spriteID: 35ff3e93968d55144a470f886e846ba4
+      internalID: 1847655836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_9
+      name: Boss Sprite Sheet_9
       rect:
         serializedVersion: 2
         x: 5120
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff882771fb8dc7049bcadc96b52c8cc8
-      internalID: 547503226
+      spriteID: 23e681b71dff362429972963d4ba89f1
+      internalID: 401732068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_10
+      name: Boss Sprite Sheet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fca2c4894a4d764b9bf9c039a207f63
-      internalID: -1282230681
+      spriteID: ce18f84a5950aa24db75ec0276169c85
+      internalID: -892397009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_11
+      name: Boss Sprite Sheet_11
       rect:
         serializedVersion: 2
         x: 1280
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e287d889b376a7a48ad54facf692584e
-      internalID: 1939541186
+      spriteID: bf17889b4aa967b408505ece6716be09
+      internalID: -2127101019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_12
+      name: Boss Sprite Sheet_12
       rect:
         serializedVersion: 2
         x: 2560
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6cf44abda93a694ab42e0a6a0d9c23b
-      internalID: -85407204
+      spriteID: 7de757ea08b685746a91f8b375701a70
+      internalID: -1593829406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_13
+      name: Boss Sprite Sheet_13
       rect:
         serializedVersion: 2
         x: 3840
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10bf32c7c5b48054283b092c4e9d4c83
-      internalID: -1925279881
+      spriteID: 2348e627a342ac64ba7de604440cf80e
+      internalID: -1918813349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_14
+      name: Boss Sprite Sheet_14
       rect:
         serializedVersion: 2
         x: 5120
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3a3c6f48d9c03348a2a5441f718e549
-      internalID: 1021033353
+      spriteID: d070c28cc976a794dadc148961da3361
+      internalID: -19351174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_15
+      name: Boss Sprite Sheet_15
       rect:
         serializedVersion: 2
         x: 0
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28781a7fc3cb74d4d8f34ee748c28c3f
-      internalID: -860290429
+      spriteID: 5d07c1220169c5c4f89063f2742efd10
+      internalID: -1479583459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_16
+      name: Boss Sprite Sheet_16
       rect:
         serializedVersion: 2
         x: 1280
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f385d6f0c701b641b397f3f5ac1682b
-      internalID: 1167236597
+      spriteID: 7b7982ab6ffd17845a86b163b803aa47
+      internalID: 1133321351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_17
+      name: Boss Sprite Sheet_17
       rect:
         serializedVersion: 2
         x: 2560
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cef44c78cf465b41a221f685815747f
-      internalID: -210069153
+      spriteID: 94721a041174a9f49bf3b0ab37ba3425
+      internalID: -415627910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_18
+      name: Boss Sprite Sheet_18
       rect:
         serializedVersion: 2
         x: 3840
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 916e524775a8d5d49a9b4ba22e7ea5dd
-      internalID: 576416901
+      spriteID: 5f32a3be5dcc04e48bac50a248cf20cd
+      internalID: 31645432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_19
+      name: Boss Sprite Sheet_19
       rect:
         serializedVersion: 2
         x: 5120
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b23ed654f541b2445857699396d50872
-      internalID: 346639832
+      spriteID: 24dead66777d9364a89cab6cdf923a75
+      internalID: -797375974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_20
+      name: Boss Sprite Sheet_20
       rect:
         serializedVersion: 2
         x: 0
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7df7a6830640de47b2281b831e4b90f
-      internalID: -1813070409
+      spriteID: 95ce33972ac649447a2d1933a46f91d4
+      internalID: -197084442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_21
+      name: Boss Sprite Sheet_21
       rect:
         serializedVersion: 2
         x: 1280
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c52970a7a18b1e3478182379435b17bd
-      internalID: -343996207
+      spriteID: 71bd110e78704b7409c9737fdce94d87
+      internalID: 1801556337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_22
+      name: Boss Sprite Sheet_22
       rect:
         serializedVersion: 2
         x: 2560
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b552ec36e283f0049abfbe2ceabeff45
-      internalID: -950089750
+      spriteID: 1c714dc2f8afc4244878f14286263fb5
+      internalID: -2102241618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_23
+      name: Boss Sprite Sheet_23
       rect:
         serializedVersion: 2
         x: 3840
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62b8aaa1847575e41ab444121eeab142
-      internalID: 834974690
+      spriteID: f6f6568735189b9418d86de96f1dc58e
+      internalID: -519409653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_24
+      name: Boss Sprite Sheet_24
       rect:
         serializedVersion: 2
         x: 5120
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c38e5900b9806c24eb5d7b95976515d2
-      internalID: 440681320
+      spriteID: 859d972aecfd7c844a310bc2e08e7747
+      internalID: 961720796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_25
+      name: Boss Sprite Sheet_25
       rect:
         serializedVersion: 2
         x: 0
@@ -649,14 +649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24ad5e39dc96cc948acc7edc2cee6393
-      internalID: -522472219
+      spriteID: 2e8a317a43f6e0e45af5daf375f3d62d
+      internalID: -985221664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_26
+      name: Boss Sprite Sheet_26
       rect:
         serializedVersion: 2
         x: 1280
@@ -670,14 +670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08baccbf8fe5d1b4eb6b89de52277b21
-      internalID: -1664211381
+      spriteID: 54f1e202d8e957748b247f0ec5bb1210
+      internalID: 1670514184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_27
+      name: Boss Sprite Sheet_27
       rect:
         serializedVersion: 2
         x: 2560
@@ -691,14 +691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c6183a999fba554993bf84ce87b055c
-      internalID: 2145286498
+      spriteID: 1531f1523d3e2674f99cc4a861fc5b26
+      internalID: 221268931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_28
+      name: Boss Sprite Sheet_28
       rect:
         serializedVersion: 2
         x: 3840
@@ -712,14 +712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56928808f86b9494b928db1c704e8810
-      internalID: -758040082
+      spriteID: 175ffaa3f59e06146bc2797b2358635f
+      internalID: 1564758254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_29
+      name: Boss Sprite Sheet_29
       rect:
         serializedVersion: 2
         x: 5120
@@ -733,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bbd1242ad50de84daefff12ba72bd5a
-      internalID: -794627736
+      spriteID: acf58d7c67090ff4a906afe958c3bf6e
+      internalID: 1745203363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_30
+      name: Boss Sprite Sheet_30
       rect:
         serializedVersion: 2
         x: 0
@@ -754,14 +754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bcff17c96b2f3f4086dd1014e3c6a92
-      internalID: -174110453
+      spriteID: c15a4034e91f510439f69d13c4afb285
+      internalID: 1952938441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_31
+      name: Boss Sprite Sheet_31
       rect:
         serializedVersion: 2
         x: 1280
@@ -775,14 +775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac609df3084db0d4c9962a2a6a9fe984
-      internalID: 278894376
+      spriteID: 8c24481280e6bae45b9eb927aad86c99
+      internalID: 1269926715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_32
+      name: Boss Sprite Sheet_32
       rect:
         serializedVersion: 2
         x: 2560
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7b6444411a98b43beb66cdf5b077ff
-      internalID: -149765017
+      spriteID: a3a2da8326abc234d86f0ccd221306db
+      internalID: 75848091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_33
+      name: Boss Sprite Sheet_33
       rect:
         serializedVersion: 2
         x: 3840
@@ -817,14 +817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9577f0cf2fdf541a4a51e2e3f74030
-      internalID: 1986532716
+      spriteID: cdc751bd0b676464bb0d79ef3ea58046
+      internalID: 1716713480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_34
+      name: Boss Sprite Sheet_34
       rect:
         serializedVersion: 2
         x: 5120
@@ -838,14 +838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0040b6dc02bdc3c4fae8f7629518c361
-      internalID: -1405147110
+      spriteID: 405451716da21a5478c12efd11e2c306
+      internalID: 1030433096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_35
+      name: Boss Sprite Sheet_35
       rect:
         serializedVersion: 2
         x: 0
@@ -859,14 +859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7413edaae7fbcc4b9cdc66316d5500d
-      internalID: 1585432445
+      spriteID: c0af33e7da4fbc84ea59df90002a023b
+      internalID: 968455351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_36
+      name: Boss Sprite Sheet_36
       rect:
         serializedVersion: 2
         x: 1280
@@ -880,14 +880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a96263f3ce8b2e34aa9c5965c7f62688
-      internalID: -995451552
+      spriteID: 7984a39cc2f018c4f90bee00054d6259
+      internalID: -1351265244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_37
+      name: Boss Sprite Sheet_37
       rect:
         serializedVersion: 2
         x: 2560
@@ -901,14 +901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d0d5658f251f384d82a73db533cdf0c
-      internalID: -841565335
+      spriteID: 685dbd72c9ed1b3479890e00fd784c45
+      internalID: 1081801158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_38
+      name: Boss Sprite Sheet_38
       rect:
         serializedVersion: 2
         x: 3840
@@ -922,14 +922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e7de4e6e254944eb980c2cbfc89841
-      internalID: 95856929
+      spriteID: 4293d2d03738fb24d937005dff9f385d
+      internalID: -1855310383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_39
+      name: Boss Sprite Sheet_39
       rect:
         serializedVersion: 2
         x: 5120
@@ -943,14 +943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd1d3faa0414c94c9bb6b3ae8bdf9af
-      internalID: 2018750074
+      spriteID: fd95838e0d89e4541a257ec8f5d2271d
+      internalID: -1087347695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_40
+      name: Boss Sprite Sheet_40
       rect:
         serializedVersion: 2
         x: 0
@@ -964,14 +964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09cbbfda4a15ef7489baa5cea48f89d4
-      internalID: 1710545286
+      spriteID: 507b5fda1d8a55f4f99143fa1693796e
+      internalID: 1801980130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_41
+      name: Boss Sprite Sheet_41
       rect:
         serializedVersion: 2
         x: 1280
@@ -985,14 +985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59e0d60dd5e33a4468d08e198f6c9d7e
-      internalID: -178237846
+      spriteID: d71ee412d14ad2c48a0792b08d3bf5df
+      internalID: 69298292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_42
+      name: Boss Sprite Sheet_42
       rect:
         serializedVersion: 2
         x: 2560
@@ -1006,14 +1006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5494c0b5d62aaf54ba1905a18299890e
-      internalID: -2099526589
+      spriteID: 6956f066614cb5d4399f552ab5895f44
+      internalID: 2031223012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_43
+      name: Boss Sprite Sheet_43
       rect:
         serializedVersion: 2
         x: 3840
@@ -1027,14 +1027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5fd752505076d4b952f80666ca6e0f
-      internalID: -1340810627
+      spriteID: 19e4ffbc79ce7fa4ebeb29bea54ff895
+      internalID: 1041114646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_44
+      name: Boss Sprite Sheet_44
       rect:
         serializedVersion: 2
         x: 5120
@@ -1048,14 +1048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bf0781ba2ebb7c4caf306e18583e942
-      internalID: -1490779394
+      spriteID: f7927bf9beb4362479f713c9b3af101a
+      internalID: 1669219672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_45
+      name: Boss Sprite Sheet_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1069,14 +1069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd2c5e47ebdcce246a1c4d45e35fac7f
-      internalID: 1701965917
+      spriteID: 498441d7375d7e24985e9a44214354f6
+      internalID: 1190430600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_46
+      name: Boss Sprite Sheet_46
       rect:
         serializedVersion: 2
         x: 1280
@@ -1090,14 +1090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d14491ab1d4ec6a46bfdc62f8c62aec9
-      internalID: -1343813266
+      spriteID: 51a462392b3c93942afdf49600595b46
+      internalID: 1025145377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_47
+      name: Boss Sprite Sheet_47
       rect:
         serializedVersion: 2
         x: 2560
@@ -1111,14 +1111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b86d93b791389394d89f569bc01ba09e
-      internalID: -695025285
+      spriteID: 65141f375e3fde743bfc3e32650a6925
+      internalID: 1545511562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_48
+      name: Boss Sprite Sheet_48
       rect:
         serializedVersion: 2
         x: 3840
@@ -1132,14 +1132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b986caa2430594c988559c88f30e1d
-      internalID: 1618661481
+      spriteID: d904c678ba8de4140837151b59986252
+      internalID: 490231223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_49
+      name: Boss Sprite Sheet_49
       rect:
         serializedVersion: 2
         x: 5120
@@ -1153,14 +1153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6730e8ff792721942bf40a7fa1ef7479
-      internalID: 1641553825
+      spriteID: aa6b47a80a127de448bbc3974cf2fbfa
+      internalID: -182346046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_50
+      name: Boss Sprite Sheet_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1174,14 +1174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c36958ab175f24ba82a7610ac79eaa
-      internalID: 1721895317
+      spriteID: 4a4bfbfae69a6f24e94c9c478301d1c4
+      internalID: -1212878012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_51
+      name: Boss Sprite Sheet_51
       rect:
         serializedVersion: 2
         x: 1280
@@ -1195,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dcf7a85ef71e37409ad0d74f8b60d8a
-      internalID: 748600484
+      spriteID: 5cf64628bc9085949b1d45fa23f2ade8
+      internalID: -401547379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_52
+      name: Boss Sprite Sheet_52
       rect:
         serializedVersion: 2
         x: 2560
@@ -1216,14 +1216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8063f3bb591b2de4b9162ff8c6711a6f
-      internalID: -2003104330
+      spriteID: 4f8f0dc21f5dc9a43a51b95f12bbee9b
+      internalID: -285899733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_53
+      name: Boss Sprite Sheet_53
       rect:
         serializedVersion: 2
         x: 3840
@@ -1237,14 +1237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24c04527f4b5d964d9fad77c2a26863a
-      internalID: -63211970
+      spriteID: 27e85ee94f47403468d2312397a71ea1
+      internalID: 1368017241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_54
+      name: Boss Sprite Sheet_54
       rect:
         serializedVersion: 2
         x: 5120
@@ -1258,14 +1258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2759afade86385418fb996ad79886bf
-      internalID: 1616145718
+      spriteID: 0710292ee58703a4bb2a82412c5bbb00
+      internalID: 1100567691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_55
+      name: Boss Sprite Sheet_55
       rect:
         serializedVersion: 2
         x: 0
@@ -1279,14 +1279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52097b5e4245d342877136a5c2bd5de
-      internalID: 1811544595
+      spriteID: d1592571e7035d4429a64d611343e6e4
+      internalID: 425898884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_56
+      name: Boss Sprite Sheet_56
       rect:
         serializedVersion: 2
         x: 1280
@@ -1300,14 +1300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 043e4a40d7ab7c943abd35f40d88edc8
-      internalID: 1464468002
+      spriteID: 30902c10ae0e3e1408133efe66c2f005
+      internalID: 174243379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_57
+      name: Boss Sprite Sheet_57
       rect:
         serializedVersion: 2
         x: 2560
@@ -1321,14 +1321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c8cbe53a1f51a544b60ebf52394dcb8
-      internalID: -2135290531
+      spriteID: 0e3ba75191c3f1d459c4594c4d4c86bc
+      internalID: -1644107868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_58
+      name: Boss Sprite Sheet_58
       rect:
         serializedVersion: 2
         x: 3840
@@ -1342,14 +1342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f8ed5c47c30f5f409e762cc0ee438fc
-      internalID: -313057525
+      spriteID: 17753fa9ca7769f47ab3fc7727155c68
+      internalID: 1974449728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_59
+      name: Boss Sprite Sheet_59
       rect:
         serializedVersion: 2
         x: 5120
@@ -1363,14 +1363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 967c525fcee676f44b5edbc45c1c60be
-      internalID: 831907800
+      spriteID: dd085aa77b5407c42b416fee4efc9be3
+      internalID: 1593766352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_60
+      name: Boss Sprite Sheet_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1384,14 +1384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a49276eda24e7a545a7207e2e1fa553e
-      internalID: 723480855
+      spriteID: 1237d6398312cf244b15e81f2abe30df
+      internalID: -1026337597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_61
+      name: Boss Sprite Sheet_61
       rect:
         serializedVersion: 2
         x: 1280
@@ -1405,14 +1405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fbf6d4af81c48c4e968ff710b6fa567
-      internalID: -365932398
+      spriteID: d2a4401b122f15c4287c131136df6517
+      internalID: -76547935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_62
+      name: Boss Sprite Sheet_62
       rect:
         serializedVersion: 2
         x: 2560
@@ -1426,14 +1426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec136bfe8b688cd48b04f88255007c31
-      internalID: 1545010211
+      spriteID: f87ea7ff837c4624d844a9a2e2026aa3
+      internalID: -1289445340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player 2 Sprite Sheet_63
+      name: Boss Sprite Sheet_63
       rect:
         serializedVersion: 2
         x: 3840
@@ -1447,8 +1447,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05d54165906c7d34dac8cb9c5820ac01
-      internalID: 1159552205
+      spriteID: a6e4feac98de4884dba7fbaa92d30553
+      internalID: -704523389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43832ba5ca97d5f408e54ced28928eb8
+      internalID: 2130795338
       vertices: []
       indices: 
       edges: []
@@ -1464,70 +1485,71 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player 2 Sprite Sheet_0: 1007355285
-      Player 2 Sprite Sheet_1: -641329678
-      Player 2 Sprite Sheet_10: -1282230681
-      Player 2 Sprite Sheet_11: 1939541186
-      Player 2 Sprite Sheet_12: -85407204
-      Player 2 Sprite Sheet_13: -1925279881
-      Player 2 Sprite Sheet_14: 1021033353
-      Player 2 Sprite Sheet_15: -860290429
-      Player 2 Sprite Sheet_16: 1167236597
-      Player 2 Sprite Sheet_17: -210069153
-      Player 2 Sprite Sheet_18: 576416901
-      Player 2 Sprite Sheet_19: 346639832
-      Player 2 Sprite Sheet_2: 631598133
-      Player 2 Sprite Sheet_20: -1813070409
-      Player 2 Sprite Sheet_21: -343996207
-      Player 2 Sprite Sheet_22: -950089750
-      Player 2 Sprite Sheet_23: 834974690
-      Player 2 Sprite Sheet_24: 440681320
-      Player 2 Sprite Sheet_25: -522472219
-      Player 2 Sprite Sheet_26: -1664211381
-      Player 2 Sprite Sheet_27: 2145286498
-      Player 2 Sprite Sheet_28: -758040082
-      Player 2 Sprite Sheet_29: -794627736
-      Player 2 Sprite Sheet_3: 350217443
-      Player 2 Sprite Sheet_30: -174110453
-      Player 2 Sprite Sheet_31: 278894376
-      Player 2 Sprite Sheet_32: -149765017
-      Player 2 Sprite Sheet_33: 1986532716
-      Player 2 Sprite Sheet_34: -1405147110
-      Player 2 Sprite Sheet_35: 1585432445
-      Player 2 Sprite Sheet_36: -995451552
-      Player 2 Sprite Sheet_37: -841565335
-      Player 2 Sprite Sheet_38: 95856929
-      Player 2 Sprite Sheet_39: 2018750074
-      Player 2 Sprite Sheet_4: -227800400
-      Player 2 Sprite Sheet_40: 1710545286
-      Player 2 Sprite Sheet_41: -178237846
-      Player 2 Sprite Sheet_42: -2099526589
-      Player 2 Sprite Sheet_43: -1340810627
-      Player 2 Sprite Sheet_44: -1490779394
-      Player 2 Sprite Sheet_45: 1701965917
-      Player 2 Sprite Sheet_46: -1343813266
-      Player 2 Sprite Sheet_47: -695025285
-      Player 2 Sprite Sheet_48: 1618661481
-      Player 2 Sprite Sheet_49: 1641553825
-      Player 2 Sprite Sheet_5: -1358821736
-      Player 2 Sprite Sheet_50: 1721895317
-      Player 2 Sprite Sheet_51: 748600484
-      Player 2 Sprite Sheet_52: -2003104330
-      Player 2 Sprite Sheet_53: -63211970
-      Player 2 Sprite Sheet_54: 1616145718
-      Player 2 Sprite Sheet_55: 1811544595
-      Player 2 Sprite Sheet_56: 1464468002
-      Player 2 Sprite Sheet_57: -2135290531
-      Player 2 Sprite Sheet_58: -313057525
-      Player 2 Sprite Sheet_59: 831907800
-      Player 2 Sprite Sheet_6: 1973184844
-      Player 2 Sprite Sheet_60: 723480855
-      Player 2 Sprite Sheet_61: -365932398
-      Player 2 Sprite Sheet_62: 1545010211
-      Player 2 Sprite Sheet_63: 1159552205
-      Player 2 Sprite Sheet_7: 304116885
-      Player 2 Sprite Sheet_8: -444787189
-      Player 2 Sprite Sheet_9: 547503226
+      Boss Sprite Sheet_0: -1338792754
+      Boss Sprite Sheet_1: -1406577808
+      Boss Sprite Sheet_10: -892397009
+      Boss Sprite Sheet_11: -2127101019
+      Boss Sprite Sheet_12: -1593829406
+      Boss Sprite Sheet_13: -1918813349
+      Boss Sprite Sheet_14: -19351174
+      Boss Sprite Sheet_15: -1479583459
+      Boss Sprite Sheet_16: 1133321351
+      Boss Sprite Sheet_17: -415627910
+      Boss Sprite Sheet_18: 31645432
+      Boss Sprite Sheet_19: -797375974
+      Boss Sprite Sheet_2: -337852566
+      Boss Sprite Sheet_20: -197084442
+      Boss Sprite Sheet_21: 1801556337
+      Boss Sprite Sheet_22: -2102241618
+      Boss Sprite Sheet_23: -519409653
+      Boss Sprite Sheet_24: 961720796
+      Boss Sprite Sheet_25: -985221664
+      Boss Sprite Sheet_26: 1670514184
+      Boss Sprite Sheet_27: 221268931
+      Boss Sprite Sheet_28: 1564758254
+      Boss Sprite Sheet_29: 1745203363
+      Boss Sprite Sheet_3: -695139742
+      Boss Sprite Sheet_30: 1952938441
+      Boss Sprite Sheet_31: 1269926715
+      Boss Sprite Sheet_32: 75848091
+      Boss Sprite Sheet_33: 1716713480
+      Boss Sprite Sheet_34: 1030433096
+      Boss Sprite Sheet_35: 968455351
+      Boss Sprite Sheet_36: -1351265244
+      Boss Sprite Sheet_37: 1081801158
+      Boss Sprite Sheet_38: -1855310383
+      Boss Sprite Sheet_39: -1087347695
+      Boss Sprite Sheet_4: 913775741
+      Boss Sprite Sheet_40: 1801980130
+      Boss Sprite Sheet_41: 69298292
+      Boss Sprite Sheet_42: 2031223012
+      Boss Sprite Sheet_43: 1041114646
+      Boss Sprite Sheet_44: 1669219672
+      Boss Sprite Sheet_45: 1190430600
+      Boss Sprite Sheet_46: 1025145377
+      Boss Sprite Sheet_47: 1545511562
+      Boss Sprite Sheet_48: 490231223
+      Boss Sprite Sheet_49: -182346046
+      Boss Sprite Sheet_5: -1521973369
+      Boss Sprite Sheet_50: -1212878012
+      Boss Sprite Sheet_51: -401547379
+      Boss Sprite Sheet_52: -285899733
+      Boss Sprite Sheet_53: 1368017241
+      Boss Sprite Sheet_54: 1100567691
+      Boss Sprite Sheet_55: 425898884
+      Boss Sprite Sheet_56: 174243379
+      Boss Sprite Sheet_57: -1644107868
+      Boss Sprite Sheet_58: 1974449728
+      Boss Sprite Sheet_59: 1593766352
+      Boss Sprite Sheet_6: -650597499
+      Boss Sprite Sheet_60: -1026337597
+      Boss Sprite Sheet_61: -76547935
+      Boss Sprite Sheet_62: -1289445340
+      Boss Sprite Sheet_63: -704523389
+      Boss Sprite Sheet_64: 2130795338
+      Boss Sprite Sheet_7: -878453689
+      Boss Sprite Sheet_8: 1847655836
+      Boss Sprite Sheet_9: 401732068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
