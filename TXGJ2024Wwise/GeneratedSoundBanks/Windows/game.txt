@@ -1,18 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
-	129085443	p1_attack			\Default Work Unit\player1\p1_attack	
+	129085443	p1_attack			\Default Work Unit\player\player1\p1_attack	
 	202194903	music_play			\Default Work Unit\music_play	
-	639554226	p2_miss			\Default Work Unit\player2\p2_miss	
+	269947890	p_charge			\Default Work Unit\player\p_charge	
+	475834086	p_defend			\Default Work Unit\player\p_defend	
+	1037822516	fight_start			\Default Work Unit\gamestate\fight_start	
 	1432716332	game_over			\Default Work Unit\gamestate\game_over	
-	1566201372	p1_special			\Default Work Unit\player1\p1_special	
-	1669679186	p2_charge			\Default Work Unit\player2\p2_charge	
-	2205895999	p1_miss			\Default Work Unit\player1\p1_miss	
+	1566201372	p1_special			\Default Work Unit\player\player1\p1_special	
 	2249769530	ui_click			\Default Work Unit\UI\ui_click	
-	2258446150	p2_defend			\Default Work Unit\player2\p2_defend	
-	2336901343	p1_charge			\Default Work Unit\player1\p1_charge	
-	3016763366	p2_attack			\Default Work Unit\player2\p2_attack	
+	3016763366	p2_attack			\Default Work Unit\player\player2\p2_attack	
 	3083087645	player_death			\Default Work Unit\player_death	
-	3616859791	p1_defend			\Default Work Unit\player1\p1_defend	
-	3741196759	p2_special			\Default Work Unit\player2\p2_special	
+	3251930818	game_won			\Default Work Unit\gamestate\game_won	
+	3308225618	p_miss			\Default Work Unit\player\p_miss	
+	3489295905	m_attack			\Default Work Unit\monster\m_attack	
+	3559787777	enter_menu			\Default Work Unit\gamestate\enter_menu	
+	3741196759	p2_special			\Default Work Unit\player\player2\p2_special	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1926883983	scene			\Default Work Unit\scene	
@@ -20,29 +21,39 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	702482391	game	scene			
 	748895195	None	scene			
+	979765101	win	scene			
 	2044049779	dead	scene			
 	2607556080	menu	scene			
 
 Effect plug-ins	ID	Name	Type				Notes
-	99260016	Parametric EQ (Custom)	Wwise Parametric EQ			
+	219669364	Compressor (Custom)	Wwise Compressor			
+	422229581	Gain (Custom)	Wwise Gain			
 	604506936	Compressor (Custom)	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	54309731	player_1_ability_defend	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\E6\{E630111B-196C-D062-6844-DC6D7850E27D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\1\player_1_ability_defend		144096
-	125235987	music_battle_intro	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\29\{29D7792B-62E3-8C12-9FA8-C562643A9119}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\battle\music_battle_intro\music_battle_intro		1589060
-	341263056	player_2_charge_fail	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\27\{276EF5F5-957E-70A1-90C3-7241A2311337}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\2\player_2_charge_fail		48096
-	399024014	music_dead_LOOP	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\65\{65AE41B9-EDC0-7238-314D-47F0A1D019C4}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\dead\music_dead_LOOP\music_dead_LOOP		27707684
-	541110834	player__death	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\5C\{5C0A1228-FE3A-7564-2A7C-887524134BAC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\player__death		48096
-	550481749	UI_button_press	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\05\{05A2375B-E7FC-1621-2EAC-7CB04C435B23}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_button_press		48096
-	563561755	music_battle_LOOP	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\AC\{ACF6AC83-732B-C44D-284C-F08C89F2A1E0}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\battle\music_battle_LOOP\music_battle_LOOP		25423544
-	574510169	player_1_charge_fail	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\89\{89B1A0E4-A1D9-EACA-DBEB-5318FD4272BE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\1\player_1_charge_fail		48096
-	594103466	player_2_ability_special	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\6B\{6B9E30D1-30E0-B87D-4F02-E9620D20B87D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\2\player_2_ability_special		96096
-	638298215	player_1_ability_attack	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\69\{69DA8CF4-999A-4286-9D8A-8F939F0236E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\1\player_1_ability_attack		96096
-	783444341	player_2_charge_1	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\D8\{D896166D-4FDE-33B9-5FFC-16F3E4489221}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\2\player_2_charge\player_2_charge_1		48096
-	832213209	player_1_charge_2	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\5D\{5D0F0419-FBEF-B339-B801-D32D622DE10E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\1\player_1_charge\player_1_charge_2		48096
-	845713212	player_1_charge_1	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\39\{39B56D87-D154-5502-2E07-6F953D9CBA76}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\1\player_1_charge\player_1_charge_1		48096
-	850851659	player_2_ability_attack	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\B5\{B56351EC-4EFE-0D74-B45B-ADE5A2FCC455}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\2\player_2_ability_attack		48096
-	928697182	player_2_charge_2	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\4C\{4C1BEA50-FB45-2059-9146-E69031ABF378}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\2\player_2_charge\player_2_charge_2		48096
-	943361851	player_1_ability_special	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\DB\{DB1E1BF8-339D-BD7F-927B-CE285CAF1B2B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\1\player_1_ability_special		192096
-	975497945	player_2_ability_defend	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\09\{09269E3D-0631-3056-F8D1-4DD2E08E1A1C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\2\player_2_ability_defend		96096
+	61668125	player_charge_4	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\29\{299FA3A5-B8E7-3FE2-7D68-30C21CE14D4B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge\player_charge_4		48096
+	120668926	monster_death	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\39\{39D5707C-7D79-6CA2-5D94-06930948215F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\monster\monster_state\monster_death		336096
+	161885434	player_charge_2	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\21\{216AA4C5-1C3F-A055-150D-D1846D0F2B2D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge\player_charge_2		48096
+	232290358	monster_attack_2	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\E3\{E3F735D8-5F4C-E051-FD2A-EDBF944746DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\monster\monster_attack\monster_attack_2		336096
+	265041499	player_1_grunt_2	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\AA\{AAFE9343-E5FC-4275-159F-B1B749B119AA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players specific\player_1_grunt\player_1_grunt_2		48096
+	309473530	player_1_grunt_1	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\BB\{BB0CAFB6-356C-C634-7CB8-E54D5D945817}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players specific\player_1_grunt\player_1_grunt_1		48096
+	399024014	music_dead_LOOP	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\61\{61BAF6F5-B674-363D-F814-B316A2CC0F2D}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\dead\music_dead_LOOP\music_dead_LOOP		625052
+	404231538	player_charge_3	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\90\{9003C8B0-003B-918F-3FF2-D12DB0092AB4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge\player_charge_3		48096
+	427213962	player_2_grunt_2	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\CF\{CF48F1DD-A347-DDF3-0C27-01E33BFB6D99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players specific\player_2_grunt\player_2_grunt_2		48096
+	449060960	player_charge_1	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\D8\{D801D301-3570-1528-ADD3-4FB35B12966C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge\player_charge_1		48096
+	468523277	player_charge_5	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\E4\{E42D81C6-1EEA-9B37-A2C0-FEE3503751D7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge\player_charge_5		48096
+	493618583	player_ability_defend	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\3D\{3DEDFC09-D826-EFFC-3176-EBB4165C6DA6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_ability_defend		96096
+	502659961	player_charge_6	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\F0\{F07032B3-C753-9E78-9F84-6D2EAE70B337}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge\player_charge_6		48096
+	541110834	player_death	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\6E\{6EC40E40-31B4-D5CA-9B17-63EE7E876296}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_death		48096
+	550481749	UI_button_press	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\44\{4435A184-F40B-A7F2-FCFF-98E6CFD336DD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_button_press		48096
+	558092212	monster_LOOP	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\17\{17940D02-ECA7-6F6E-C9EC-DB1374DD7A49}.wem		\Actor-Mixer Hierarchy\Default Work Unit\monster\monster_state\monster_LOOP		2832096
+	563561755	music_battle_LOOP	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\80\{805890DA-249F-6591-CB01-FBA58D794316}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\battle\music_battle_LOOP\music_battle_LOOP		653685
+	659818488	player_ability_attack	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\9C\{9C44CF2B-A463-3642-66A7-A3615BC114BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_ability_attack		96096
+	765788735	player_ability_special	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\89\{8916DD00-6198-6E9E-296B-364AC37C79F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_ability_special		96096
+	793836264	player_2_grunt_1	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\6A\{6A0A8D9B-2400-7222-2AC6-6649F0F6C8D6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players specific\player_2_grunt\player_2_grunt_1		48096
+	855159835	music_battle_win	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\0B\{0B7CFA7D-3DA3-4565-AA44-F0F5F7328943}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\win\music_win\music_battle_win		48887
+	864856008	player_charge_fail	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\79\{79AF1F2F-D814-FB02-C014-F6CF9A15B81F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\players\players generic\player_charge_fail		48096
+	909762582	monster_attack_1	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\B8\{B8F8C3F7-0D41-2874-4C12-5E41E354BC07}.wem		\Actor-Mixer Hierarchy\Default Work Unit\monster\monster_attack\monster_attack_1		432096
+	973067515	monster_attack_3	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\A9\{A99BD4DE-7A15-0E7D-653E-18491758A6C6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\monster\monster_attack\monster_attack_3		240096
+	1021181275	music_menu_LOOP	C:\Users\monst\Game Dev\Engine Projects\Jams\Texas Game Jam\2024\BallroomBattle\TXGJ2024Wwise\.cache\30\{30E1A4B5-DBA9-D870-D69E-EEA77AF1F4D7}.wem		\Interactive Music Hierarchy\Default Work Unit\dead or alive\menu\music_menu_LOOP\music_menu_LOOP		668644
 

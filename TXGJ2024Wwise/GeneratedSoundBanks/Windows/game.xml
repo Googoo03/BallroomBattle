@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="153">
+	<SoundBanks>
+		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{88854FD5-0AF9-0B4B-EB68-6ACB3120C220}">
+			<ObjectPath>\SoundBanks\Default Work Unit\game</ObjectPath>
+			<ShortName>game</ShortName>
+			<Path>game.bnk</Path>
+			<Media>
+				<File Id="61668125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_4.wav</ShortName>
+					<CachePath>29/{299FA3A5-B8E7-3FE2-7D68-30C21CE14D4B}.wem</CachePath>
+				</File>
+				<File Id="120668926" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_death.wav</ShortName>
+					<CachePath>39/{39D5707C-7D79-6CA2-5D94-06930948215F}.wem</CachePath>
+				</File>
+				<File Id="161885434" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_2.wav</ShortName>
+					<CachePath>21/{216AA4C5-1C3F-A055-150D-D1846D0F2B2D}.wem</CachePath>
+				</File>
+				<File Id="232290358" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_2.wav</ShortName>
+					<CachePath>E3/{E3F735D8-5F4C-E051-FD2A-EDBF944746DB}.wem</CachePath>
+				</File>
+				<File Id="265041499" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_1_grunt_2.wav</ShortName>
+					<CachePath>AA/{AAFE9343-E5FC-4275-159F-B1B749B119AA}.wem</CachePath>
+				</File>
+				<File Id="309473530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_1_grunt_1.wav</ShortName>
+					<CachePath>BB/{BB0CAFB6-356C-C634-7CB8-E54D5D945817}.wem</CachePath>
+				</File>
+				<File Id="399024014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_dead_LOOP.wav</ShortName>
+					<CachePath>61/{61BAF6F5-B674-363D-F814-B316A2CC0F2D}.wem</CachePath>
+				</File>
+				<File Id="404231538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_3.wav</ShortName>
+					<CachePath>90/{9003C8B0-003B-918F-3FF2-D12DB0092AB4}.wem</CachePath>
+				</File>
+				<File Id="427213962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_2_grunt_2.wav</ShortName>
+					<CachePath>CF/{CF48F1DD-A347-DDF3-0C27-01E33BFB6D99}.wem</CachePath>
+				</File>
+				<File Id="449060960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_1.wav</ShortName>
+					<CachePath>D8/{D801D301-3570-1528-ADD3-4FB35B12966C}.wem</CachePath>
+				</File>
+				<File Id="468523277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_5.wav</ShortName>
+					<CachePath>E4/{E42D81C6-1EEA-9B37-A2C0-FEE3503751D7}.wem</CachePath>
+				</File>
+				<File Id="493618583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_ability_defend.wav</ShortName>
+					<CachePath>3D/{3DEDFC09-D826-EFFC-3176-EBB4165C6DA6}.wem</CachePath>
+				</File>
+				<File Id="502659961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_6.wav</ShortName>
+					<CachePath>F0/{F07032B3-C753-9E78-9F84-6D2EAE70B337}.wem</CachePath>
+				</File>
+				<File Id="541110834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player__death.wav</ShortName>
+					<CachePath>6E/{6EC40E40-31B4-D5CA-9B17-63EE7E876296}.wem</CachePath>
+				</File>
+				<File Id="550481749" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_button_press.wav</ShortName>
+					<CachePath>44/{4435A184-F40B-A7F2-FCFF-98E6CFD336DD}.wem</CachePath>
+				</File>
+				<File Id="558092212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_LOOP.wav</ShortName>
+					<CachePath>17/{17940D02-ECA7-6F6E-C9EC-DB1374DD7A49}.wem</CachePath>
+				</File>
+				<File Id="563561755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_battle_LOOP.wav</ShortName>
+					<CachePath>80/{805890DA-249F-6591-CB01-FBA58D794316}.wem</CachePath>
+				</File>
+				<File Id="659818488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_ability_attack.wav</ShortName>
+					<CachePath>9C/{9C44CF2B-A463-3642-66A7-A3615BC114BD}.wem</CachePath>
+				</File>
+				<File Id="765788735" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_ability_special.wav</ShortName>
+					<CachePath>89/{8916DD00-6198-6E9E-296B-364AC37C79F9}.wem</CachePath>
+				</File>
+				<File Id="793836264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_2_grunt_1.wav</ShortName>
+					<CachePath>6A/{6A0A8D9B-2400-7222-2AC6-6649F0F6C8D6}.wem</CachePath>
+				</File>
+				<File Id="855159835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_battle_win.wav</ShortName>
+					<CachePath>0B/{0B7CFA7D-3DA3-4565-AA44-F0F5F7328943}.wem</CachePath>
+				</File>
+				<File Id="864856008" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>player_charge_fail.wav</ShortName>
+					<CachePath>79/{79AF1F2F-D814-FB02-C014-F6CF9A15B81F}.wem</CachePath>
+				</File>
+				<File Id="909762582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_1.wav</ShortName>
+					<CachePath>B8/{B8F8C3F7-0D41-2874-4C12-5E41E354BC07}.wem</CachePath>
+				</File>
+				<File Id="973067515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>monster_attack_3.wav</ShortName>
+					<CachePath>A9/{A99BD4DE-7A15-0E7D-653E-18491758A6C6}.wem</CachePath>
+				</File>
+				<File Id="1021181275" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_menu_LOOP.wav</ShortName>
+					<CachePath>30/{30E1A4B5-DBA9-D870-D69E-EEA77AF1F4D7}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="219669364" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\dead or alive\battle\[Effect Slot [0]: (Compressor)]\Compressor (Custom)" GUID="{17E7127A-205D-4FDD-9120-2C204521F600}" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="422229581" Name="Gain (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\dead or alive\dead\music_dead_LOOP\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{966709BA-A3A7-4BA7-BFBD-B8B33943911A}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="604506936" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\dead or alive\dead\music_dead_LOOP\[Effect Slot [1]: (Compressor)]\Compressor (Custom)" GUID="{9BD3D33B-3D6E-4326-854C-34263D6A4001}" LibName="Wwise Compressor" LibId="7077891"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3559787777" Name="enter_menu" ObjectPath="\Events\Default Work Unit\gamestate\enter_menu" GUID="{D7EE0BF3-4F95-4E83-ADB8-ED50E6A9F432}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1926883983" Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\scene\menu" GUID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1037822516" Name="fight_start" ObjectPath="\Events\Default Work Unit\gamestate\fight_start" GUID="{E864184A-A356-4B3B-A357-4DFF6053DA27}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1926883983" Id="702482391" GUID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+							<MediaRefs>
+								<MediaRef Id="558092212"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1926883983" Id="979765101" GUID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
+							<MediaRefs>
+								<MediaRef Id="120668926"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1926883983" Id="702482391" Name="game" ObjectPath="\States\Default Work Unit\scene\game" GUID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1432716332" Name="game_over" ObjectPath="\Events\Default Work Unit\gamestate\game_over" GUID="{32283FE6-AB2D-47A2-AC52-BB95940713FE}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1926883983" Id="2044049779" Name="dead" ObjectPath="\States\Default Work Unit\scene\dead" GUID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3251930818" Name="game_won" ObjectPath="\Events\Default Work Unit\gamestate\game_won" GUID="{AFB029C1-82CC-467D-8A57-D0D7310A061D}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1926883983" Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\scene\win" GUID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3489295905" Name="m_attack" ObjectPath="\Events\Default Work Unit\monster\m_attack" GUID="{2D1C9408-DD34-4AE4-8348-FD63FC4BB59E}" DurationType="OneShot" DurationMin="2.102241" DurationMax="5.1245484">
+					<MediaRefs>
+						<MediaRef Id="232290358"/>
+						<MediaRef Id="909762582"/>
+						<MediaRef Id="973067515"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="202194903" Name="music_play" ObjectPath="\Events\Default Work Unit\music_play" GUID="{77CE683E-5599-4A87-BDCF-1442AAFAF4A5}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1926883983" Id="702482391" GUID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+							<MediaRefs>
+								<MediaRef Id="563561755"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="219669364"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1926883983" Id="2044049779" GUID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"/>
+							<MediaRefs>
+								<MediaRef Id="399024014"/>
+							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="422229581"/>
+									<PluginRef Id="604506936"/>
+								</Custom>
+							</PluginRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1926883983" Id="2607556080" GUID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
+							<MediaRefs>
+								<MediaRef Id="1021181275"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1926883983" Id="979765101" GUID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
+							<MediaRefs>
+								<MediaRef Id="855159835"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1926883983" Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\scene\menu" GUID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="129085443" Name="p1_attack" ObjectPath="\Events\Default Work Unit\player\player1\p1_attack" GUID="{C78EBB24-AFB1-4159-ADD4-C3811A26942F}" DurationType="OneShot" DurationMin="0.8408964" DurationMax="1.1892071">
+					<MediaRefs>
+						<MediaRef Id="265041499"/>
+						<MediaRef Id="309473530"/>
+						<MediaRef Id="659818488"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1566201372" Name="p1_special" ObjectPath="\Events\Default Work Unit\player\player1\p1_special" GUID="{8C263D8F-97D5-4F66-86D8-998492030E64}" DurationType="OneShot" DurationMin="0.8408964" DurationMax="1.1892071">
+					<MediaRefs>
+						<MediaRef Id="265041499"/>
+						<MediaRef Id="309473530"/>
+						<MediaRef Id="765788735"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3016763366" Name="p2_attack" ObjectPath="\Events\Default Work Unit\player\player2\p2_attack" GUID="{2A7C3144-EF94-4265-98CD-9006B601614F}" DurationType="OneShot" DurationMin="0.8408964" DurationMax="1.1892071">
+					<MediaRefs>
+						<MediaRef Id="427213962"/>
+						<MediaRef Id="659818488"/>
+						<MediaRef Id="793836264"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3741196759" Name="p2_special" ObjectPath="\Events\Default Work Unit\player\player2\p2_special" GUID="{5F67AADF-955B-4767-9B86-1B1467078B43}" DurationType="OneShot" DurationMin="0.8408964" DurationMax="1.1892071">
+					<MediaRefs>
+						<MediaRef Id="427213962"/>
+						<MediaRef Id="765788735"/>
+						<MediaRef Id="793836264"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="269947890" Name="p_charge" ObjectPath="\Events\Default Work Unit\player\p_charge" GUID="{BB319181-B2C5-4C56-95E4-EB8D97E92220}" DurationType="OneShot" DurationMin="0.4204482" DurationMax="0.59460354">
+					<MediaRefs>
+						<MediaRef Id="61668125"/>
+						<MediaRef Id="161885434"/>
+						<MediaRef Id="404231538"/>
+						<MediaRef Id="449060960"/>
+						<MediaRef Id="468523277"/>
+						<MediaRef Id="502659961"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="475834086" Name="p_defend" ObjectPath="\Events\Default Work Unit\player\p_defend" GUID="{B9E4F855-E396-45C0-A4DC-4CA2FAAD1644}" DurationType="OneShot" DurationMin="0.8408964" DurationMax="1.1892071">
+					<MediaRefs>
+						<MediaRef Id="493618583"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3308225618" Name="p_miss" ObjectPath="\Events\Default Work Unit\player\p_miss" GUID="{B40B1F03-3D69-48A9-97B7-3F374008B0DA}" DurationType="OneShot" DurationMin="0.4204482" DurationMax="0.59460354">
+					<MediaRefs>
+						<MediaRef Id="864856008"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3083087645" Name="player_death" ObjectPath="\Events\Default Work Unit\player_death" GUID="{4DA8541C-A4A0-4E14-8833-DABECE7AFCE1}" DurationType="OneShot" DurationMin="0.4204482" DurationMax="0.59460354">
+					<MediaRefs>
+						<MediaRef Id="541110834"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2249769530" Name="ui_click" ObjectPath="\Events\Default Work Unit\UI\ui_click" GUID="{17464253-0AAF-44E8-8D1D-323672C42A52}" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<MediaRefs>
+						<MediaRef Id="550481749"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1926883983" Name="scene" ObjectPath="\States\Default Work Unit\scene" GUID="{993E7625-02F3-4518-90C2-C8AE85EE1584}">
+					<States>
+						<State Id="702482391" Name="game" ObjectPath="\States\Default Work Unit\scene\game" GUID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\scene\None" GUID="{4306E4C3-52B0-4A7F-97CE-93785F390E0D}"/>
+						<State Id="979765101" Name="win" ObjectPath="\States\Default Work Unit\scene\win" GUID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
+						<State Id="2044049779" Name="dead" ObjectPath="\States\Default Work Unit\scene\dead" GUID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"/>
+						<State Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\scene\menu" GUID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{17D0109C-9683-9075-13B7-AC20574D1A56}</FileHash>
+</SoundBanksInfo>

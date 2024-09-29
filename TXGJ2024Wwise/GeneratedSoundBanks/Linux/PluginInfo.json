@@ -4,18 +4,18 @@
   "BasePlatform": "Linux",
   "PluginLibs": [
    {
-    "LibName": "Wwise Parametric EQ",
-    "LibId": "6881283",
-    "Type": "Effect",
-    "DLL": "AkParametricEQ",
-    "StaticLib": "AkParametricEQFX"
-   },
-   {
     "LibName": "Wwise Compressor",
     "LibId": "7077891",
     "Type": "Effect",
     "DLL": "AkCompressor",
     "StaticLib": "AkCompressorFX"
+   },
+   {
+    "LibName": "Wwise Gain",
+    "LibId": "9109507",
+    "Type": "Effect",
+    "DLL": "AkGain",
+    "StaticLib": "AkGainFX"
    },
    {
     "LibName": "System",
@@ -28,6 +28,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{82FCA5D9-95D9-2B0D-A3EB-9051597CEDFF}"
+  "FileHash": "{5BA394AD-4BC4-442C-5BF0-FCA0FF93ECEB}"
  }
 }

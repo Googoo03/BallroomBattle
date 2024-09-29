@@ -4,6 +4,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	702482391	game	scene			
 	748895195	None	scene			
+	979765101	win	scene			
 	2044049779	dead	scene			
 	2607556080	menu	scene			
 

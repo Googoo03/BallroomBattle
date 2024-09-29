@@ -5,13 +5,14 @@
 			<ChildrenList>
 				<StateGroup Name="scene" ID="{993E7625-02F3-4518-90C2-C8AE85EE1584}">
 					<PropertyList>
-						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{4306E4C3-52B0-4A7F-97CE-93785F390E0D}"/>
 						<State Name="menu" ID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
 						<State Name="game" ID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
 						<State Name="dead" ID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"/>
+						<State Name="win" ID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

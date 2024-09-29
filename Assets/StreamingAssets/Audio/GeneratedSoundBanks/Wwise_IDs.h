@@ -13,18 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ENTER_MENU = 3559787777U;
+        static const AkUniqueID FIGHT_START = 1037822516U;
         static const AkUniqueID GAME_OVER = 1432716332U;
+        static const AkUniqueID GAME_WON = 3251930818U;
+        static const AkUniqueID M_ATTACK = 3489295905U;
         static const AkUniqueID MUSIC_PLAY = 202194903U;
         static const AkUniqueID P1_ATTACK = 129085443U;
-        static const AkUniqueID P1_CHARGE = 2336901343U;
-        static const AkUniqueID P1_DEFEND = 3616859791U;
-        static const AkUniqueID P1_MISS = 2205895999U;
         static const AkUniqueID P1_SPECIAL = 1566201372U;
         static const AkUniqueID P2_ATTACK = 3016763366U;
-        static const AkUniqueID P2_CHARGE = 1669679186U;
-        static const AkUniqueID P2_DEFEND = 2258446150U;
-        static const AkUniqueID P2_MISS = 639554226U;
         static const AkUniqueID P2_SPECIAL = 3741196759U;
+        static const AkUniqueID P_CHARGE = 269947890U;
+        static const AkUniqueID P_DEFEND = 475834086U;
+        static const AkUniqueID P_MISS = 3308225618U;
         static const AkUniqueID PLAYER_DEATH = 3083087645U;
         static const AkUniqueID UI_CLICK = 2249769530U;
     } // namespace EVENTS
@@ -41,6 +42,7 @@ namespace AK
                 static const AkUniqueID GAME = 702482391U;
                 static const AkUniqueID MENU = 2607556080U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WIN = 979765101U;
             } // namespace STATE
         } // namespace SCENE
 

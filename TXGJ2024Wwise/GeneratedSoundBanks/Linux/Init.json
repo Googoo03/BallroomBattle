@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{4BC4351E-AEA0-4765-4A9B-B720BFA8E147}",
+    "Hash": "{39C7FAEF-3BA7-08D4-526E-5C447683496A}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -60,6 +60,12 @@
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\scene\\None",
         "GUID": "{4306E4C3-52B0-4A7F-97CE-93785F390E0D}"
+       },
+       {
+        "Id": "979765101",
+        "Name": "win",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\win",
+        "GUID": "{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"
        },
        {
         "Id": "2044049779",
@@ -542,6 +548,6 @@
     ]
    }
   ],
-  "FileHash": "{00ADA15D-D78B-03B7-4E85-EE0B4CAEDBCD}"
+  "FileHash": "{0D78CEBF-3FD8-C19C-00A1-B59015EB564D}"
  }
 }

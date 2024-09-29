@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 28e3fcec1165464f93cfd8270df3243a
     GuidInternal: 
-    m_lastTime: -8584740590838180790
-    List: []
+    m_lastTime: -8584740538590682444
+    List:
+    - name: game
+      guid: 62c5685dc6044f44a3cdea5da9d903f8
+      id: 702482391
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 28e3fcec1165464f93cfd8270df3243a
+      - ElementName: game
+        ObjectType: 7
+        guid: 62c5685dc6044f44a3cdea5da9d903f8
+      Path: SoundBanks\Default Work Unit\game
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -345,8 +359,390 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: a2b9829585f4534c9a464a1f1bfe5873
     GuidInternal: 
-    m_lastTime: -8584740590838290780
-    List: []
+    m_lastTime: -8584740211773869847
+    List:
+    - name: enter_menu
+      guid: f30beed7954f834eadb8ed50e6a9f432
+      id: 3559787777
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: gamestate
+        ObjectType: 4
+        guid: e4a0c37377b6d343b7766061e3d2dadf
+      - ElementName: enter_menu
+        ObjectType: 3
+        guid: f30beed7954f834eadb8ed50e6a9f432
+      Path: Events\Default Work Unit\gamestate\enter_menu
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: fight_start
+      guid: 4a1864e856a33b4ba3574dff6053da27
+      id: 1037822516
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: gamestate
+        ObjectType: 4
+        guid: e4a0c37377b6d343b7766061e3d2dadf
+      - ElementName: fight_start
+        ObjectType: 3
+        guid: 4a1864e856a33b4ba3574dff6053da27
+      Path: Events\Default Work Unit\gamestate\fight_start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: game_over
+      guid: e63f28322daba247ac52bb95940713fe
+      id: 1432716332
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: gamestate
+        ObjectType: 4
+        guid: e4a0c37377b6d343b7766061e3d2dadf
+      - ElementName: game_over
+        ObjectType: 3
+        guid: e63f28322daba247ac52bb95940713fe
+      Path: Events\Default Work Unit\gamestate\game_over
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: gamestate
+      guid: e4a0c37377b6d343b7766061e3d2dadf
+      id: 4091656514
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: gamestate
+        ObjectType: 4
+        guid: e4a0c37377b6d343b7766061e3d2dadf
+      Path: Events\Default Work Unit\gamestate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: music_play
+      guid: 3e68ce779955874abdcf1442aafaf4a5
+      id: 202194903
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: music_play
+        ObjectType: 3
+        guid: 3e68ce779955874abdcf1442aafaf4a5
+      Path: Events\Default Work Unit\music_play
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: p1_attack
+      guid: 24bb8ec7b1af5941add4c3811a26942f
+      id: 129085443
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player1
+        ObjectType: 4
+        guid: e174bd3ae239ad4ca692d96c884c2a4e
+      - ElementName: p1_attack
+        ObjectType: 3
+        guid: 24bb8ec7b1af5941add4c3811a26942f
+      Path: Events\Default Work Unit\player1\p1_attack
+      maxAttenuation: 0
+      maxDuration: 1.1892071
+      minDuration: 0.8408964
+    - name: p1_charge
+      guid: 819131bbc5b2564c95e4eb8d97e92220
+      id: 2336901343
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player1
+        ObjectType: 4
+        guid: e174bd3ae239ad4ca692d96c884c2a4e
+      - ElementName: p1_charge
+        ObjectType: 3
+        guid: 819131bbc5b2564c95e4eb8d97e92220
+      Path: Events\Default Work Unit\player1\p1_charge
+      maxAttenuation: 0
+      maxDuration: 0.59460354
+      minDuration: 0.4204482
+    - name: p1_defend
+      guid: 55f8e4b996e3c045a4dc4ca2faad1644
+      id: 3616859791
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player1
+        ObjectType: 4
+        guid: e174bd3ae239ad4ca692d96c884c2a4e
+      - ElementName: p1_defend
+        ObjectType: 3
+        guid: 55f8e4b996e3c045a4dc4ca2faad1644
+      Path: Events\Default Work Unit\player1\p1_defend
+      maxAttenuation: 0
+      maxDuration: 1.7838106
+      minDuration: 1.2613447
+    - name: p1_miss
+      guid: 031f0bb4693da94897b73f374008b0da
+      id: 2205895999
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player1
+        ObjectType: 4
+        guid: e174bd3ae239ad4ca692d96c884c2a4e
+      - ElementName: p1_miss
+        ObjectType: 3
+        guid: 031f0bb4693da94897b73f374008b0da
+      Path: Events\Default Work Unit\player1\p1_miss
+      maxAttenuation: 0
+      maxDuration: 0.59460354
+      minDuration: 0.4204482
+    - name: p1_special
+      guid: 8f3d268cd597664f86d8998492030e64
+      id: 1566201372
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player1
+        ObjectType: 4
+        guid: e174bd3ae239ad4ca692d96c884c2a4e
+      - ElementName: p1_special
+        ObjectType: 3
+        guid: 8f3d268cd597664f86d8998492030e64
+      Path: Events\Default Work Unit\player1\p1_special
+      maxAttenuation: 0
+      maxDuration: 1.3271518
+      minDuration: 0.938438
+    - name: p2_attack
+      guid: 44317c2a94ef654298cd9006b601614f
+      id: 3016763366
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player2
+        ObjectType: 4
+        guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      - ElementName: p2_attack
+        ObjectType: 3
+        guid: 44317c2a94ef654298cd9006b601614f
+      Path: Events\Default Work Unit\player2\p2_attack
+      maxAttenuation: 0
+      maxDuration: 0.59460354
+      minDuration: 0.4204482
+    - name: p2_charge
+      guid: 448604b0ed4f494a9f3c2479cdcdabe5
+      id: 1669679186
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player2
+        ObjectType: 4
+        guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      - ElementName: p2_charge
+        ObjectType: 3
+        guid: 448604b0ed4f494a9f3c2479cdcdabe5
+      Path: Events\Default Work Unit\player2\p2_charge
+      maxAttenuation: 0
+      maxDuration: 0.59460354
+      minDuration: 0.4204482
+    - name: p2_defend
+      guid: 5a1aaa1810739948a96039dbdfaf1bb9
+      id: 2258446150
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player2
+        ObjectType: 4
+        guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      - ElementName: p2_defend
+        ObjectType: 3
+        guid: 5a1aaa1810739948a96039dbdfaf1bb9
+      Path: Events\Default Work Unit\player2\p2_defend
+      maxAttenuation: 0
+      maxDuration: 1.1892071
+      minDuration: 0.8408964
+    - name: p2_miss
+      guid: ddeab3a252e7144384fa7c10213aa25a
+      id: 639554226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player2
+        ObjectType: 4
+        guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      - ElementName: p2_miss
+        ObjectType: 3
+        guid: ddeab3a252e7144384fa7c10213aa25a
+      Path: Events\Default Work Unit\player2\p2_miss
+      maxAttenuation: 0
+      maxDuration: 0.59460354
+      minDuration: 0.4204482
+    - name: p2_special
+      guid: dfaa675f5b9567479b861b1467078b43
+      id: 3741196759
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player2
+        ObjectType: 4
+        guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      - ElementName: p2_special
+        ObjectType: 3
+        guid: dfaa675f5b9567479b861b1467078b43
+      Path: Events\Default Work Unit\player2\p2_special
+      maxAttenuation: 0
+      maxDuration: 1.1892071
+      minDuration: 0.8408964
+    - name: player_death
+      guid: 1c54a84da0a4144e8833dabece7afce1
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player_death
+        ObjectType: 3
+        guid: 1c54a84da0a4144e8833dabece7afce1
+      Path: Events\Default Work Unit\player_death
+      maxAttenuation: 0
+      maxDuration: 0.59460354
+      minDuration: 0.4204482
+    - name: player1
+      guid: e174bd3ae239ad4ca692d96c884c2a4e
+      id: 2188949039
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player1
+        ObjectType: 4
+        guid: e174bd3ae239ad4ca692d96c884c2a4e
+      Path: Events\Default Work Unit\player1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: player2
+      guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      id: 2188949036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: player2
+        ObjectType: 4
+        guid: 8e39e0a7ded0d44f82d3aae11a04b643
+      Path: Events\Default Work Unit\player2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI
+      guid: 316f16412ed6724c8aaaa6b80d7fec29
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: UI
+        ObjectType: 4
+        guid: 316f16412ed6724c8aaaa6b80d7fec29
+      Path: Events\Default Work Unit\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ui_click
+      guid: 53424617af0ae8448d1d323672c42a52
+      id: 2249769530
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2b9829585f4534c9a464a1f1bfe5873
+      - ElementName: UI
+        ObjectType: 4
+        guid: 316f16412ed6724c8aaaa6b80d7fec29
+      - ElementName: ui_click
+        ObjectType: 3
+        guid: 53424617af0ae8448d1d323672c42a52
+      Path: Events\Default Work Unit\UI\ui_click
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.5
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -373,8 +769,90 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 96ab3e3203337d44b615660ecf28a27e
     GuidInternal: 
-    m_lastTime: -8584740590838160784
-    List: []
+    m_lastTime: -8584740428005600025
+    List:
+    - name: scene
+      guid: 25763e99f302184590c2c8ae85ee1584
+      id: 1926883983
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 96ab3e3203337d44b615660ecf28a27e
+      - ElementName: scene
+        ObjectType: 9
+        guid: 25763e99f302184590c2c8ae85ee1584
+      Path: States\Default Work Unit\scene
+      values:
+      - name: dead
+        guid: 2cfdc3b8b7fa74469a539a45a5e4c3d5
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 96ab3e3203337d44b615660ecf28a27e
+        - ElementName: scene
+          ObjectType: 9
+          guid: 25763e99f302184590c2c8ae85ee1584
+        - ElementName: dead
+          ObjectType: 8
+          guid: 2cfdc3b8b7fa74469a539a45a5e4c3d5
+      - name: game
+        guid: 00729512136db8449060484d86bd7e7b
+        id: 702482391
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 96ab3e3203337d44b615660ecf28a27e
+        - ElementName: scene
+          ObjectType: 9
+          guid: 25763e99f302184590c2c8ae85ee1584
+        - ElementName: game
+          ObjectType: 8
+          guid: 00729512136db8449060484d86bd7e7b
+      - name: menu
+        guid: 7e9f57cd8c2af042bf3e2454cc17eb3b
+        id: 2607556080
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 96ab3e3203337d44b615660ecf28a27e
+        - ElementName: scene
+          ObjectType: 9
+          guid: 25763e99f302184590c2c8ae85ee1584
+        - ElementName: menu
+          ObjectType: 8
+          guid: 7e9f57cd8c2af042bf3e2454cc17eb3b
+      - name: None
+        guid: c3e40643b0527f4a97ce93785f390e0d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 96ab3e3203337d44b615660ecf28a27e
+        - ElementName: scene
+          ObjectType: 9
+          guid: 25763e99f302184590c2c8ae85ee1584
+        - ElementName: None
+          ObjectType: 8
+          guid: c3e40643b0527f4a97ce93785f390e0d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
