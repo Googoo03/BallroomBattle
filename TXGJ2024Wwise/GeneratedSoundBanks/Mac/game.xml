@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="153">
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{88854FD5-0AF9-0B4B-EB68-6ACB3120C220}">
+		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{389B4718-DEC7-C544-319F-DDA2FBF73772}">
 			<ObjectPath>\SoundBanks\Default Work Unit\game</ObjectPath>
 			<ShortName>game</ShortName>
 			<Path>game.bnk</Path>
@@ -109,9 +109,9 @@
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="219669364" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\dead or alive\battle\[Effect Slot [0]: (Compressor)]\Compressor (Custom)" GUID="{17E7127A-205D-4FDD-9120-2C204521F600}" LibName="Wwise Compressor" LibId="7077891"/>
-					<Plugin Id="422229581" Name="Gain (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\dead or alive\dead\music_dead_LOOP\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{966709BA-A3A7-4BA7-BFBD-B8B33943911A}" LibName="Wwise Gain" LibId="9109507"/>
-					<Plugin Id="604506936" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\dead or alive\dead\music_dead_LOOP\[Effect Slot [1]: (Compressor)]\Compressor (Custom)" GUID="{9BD3D33B-3D6E-4326-854C-34263D6A4001}" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="219669364" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\music player\battle\[Effect Slot [0]: (Compressor)]\Compressor (Custom)" GUID="{17E7127A-205D-4FDD-9120-2C204521F600}" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="422229581" Name="Gain (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\music player\dead\music_dead_LOOP\[Effect Slot [0]: (Gain)]\Gain (Custom)" GUID="{966709BA-A3A7-4BA7-BFBD-B8B33943911A}" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="604506936" Name="Compressor (Custom)" ObjectPath="\Interactive Music Hierarchy\Default Work Unit\music player\dead\music_dead_LOOP\[Effect Slot [1]: (Compressor)]\Compressor (Custom)" GUID="{9BD3D33B-3D6E-4326-854C-34263D6A4001}" LibName="Wwise Compressor" LibId="7077891"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -194,9 +194,6 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="1926883983" Id="2607556080" Name="menu" ObjectPath="\States\Default Work Unit\scene\menu" GUID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="129085443" Name="p1_attack" ObjectPath="\Events\Default Work Unit\player\player1\p1_attack" GUID="{C78EBB24-AFB1-4159-ADD4-C3811A26942F}" DurationType="OneShot" DurationMin="0.8408964" DurationMax="1.1892071">
 					<MediaRefs>
@@ -270,5 +267,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4A7DBEC1-5931-CDF0-03BB-06876FC3783E}</FileHash>
+	<FileHash>{4F00142F-0C75-67AF-88AE-46FECF6A3C8A}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78596fba52517744596a85a839d102fc, type: 3}
+  m_Name: 2A7C3144-EF94-4265-98CD-9006B601614F
+  m_EditorClassIdentifier: 
+  objectName: p2_attack
+  id: 3016763366
+  guid: 2A7C3144-EF94-4265-98CD-9006B601614F
+  IsInUserDefinedSoundBank: 0
+  IsAutoBankLoaded: 0
