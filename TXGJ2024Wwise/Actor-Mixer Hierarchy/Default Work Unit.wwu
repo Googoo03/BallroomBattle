@@ -208,6 +208,43 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="scene" ID="{993E7625-02F3-4518-90C2-C8AE85EE1584}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="menu" ID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
+												<CustomState Name="" ID="{C9890C68-B1D7-464C-90C4-9A5F94D763F2}" ShortID="139468336">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64" Value="-192"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="game" ID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+												<CustomState Name="" ID="{8FED8132-7CA1-4A13-BF8C-E783A558C126}" ShortID="305738477"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="dead" ID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"/>
+												<CustomState Name="" ID="{356618D9-844D-4C5D-949E-7399E155AA5C}" ShortID="71071001">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64" Value="-192"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="win" ID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
+												<CustomState Name="" ID="{544B9C12-1B76-49D3-B8F3-F2FD570CA41E}" ShortID="1003550257">
+													<PropertyList>
+														<Property Name="MakeUpGain" Type="Real64" Value="-192"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="player_charge_fail" ID="{0838BFE8-8530-46F1-812B-46C504AB374F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -617,6 +654,12 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="monster_attack" ID="{E20B44CB-480E-425B-84A8-AD903E94B217}" ShortID="57413206">
 							<PropertyList>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -629,6 +672,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>

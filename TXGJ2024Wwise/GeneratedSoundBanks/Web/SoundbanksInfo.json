@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}",
     "Language": "SFX",
-    "Hash": "{389B4718-DEC7-C544-319F-DDA2FBF73772}",
+    "Hash": "{9B351D64-4C27-F265-1EB4-78FAE8940AC4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\game",
     "ShortName": "game",
     "Path": "game.bnk",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "UI_button_press.wav",
-      "CachePath": "44/{4435A184-F40B-A7F2-FCFF-98E6CFD336DD}.wem"
+      "CachePath": "8F/{8F2C6BA4-56F4-631E-600B-7752951EF299}.wem"
      },
      {
       "Id": "558092212",
@@ -1202,6 +1202,6 @@
     ]
    }
   ],
-  "FileHash": "{A94FF239-08A0-B464-309A-51166C1AA76C}"
+  "FileHash": "{3486F092-B7C7-64A8-1AFC-6CAA6FA3C604}"
  }
 }
