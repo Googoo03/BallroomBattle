@@ -12,9 +12,15 @@ public class Enemy_Manager : MonoBehaviour
     private int damageDealt;
 
     public AK.Wwise.Event growl;
+    public AK.Wwise.Event fight_start;
 
     [SerializeField] private Event_Manager event_manager;
     [SerializeField] private GameObject health_bar;
+
+    public void awaken()
+    {
+        fight_start.Post(gameObject);
+    }
     void Start()
     {
         can_input = false;
@@ -41,8 +47,6 @@ public class Enemy_Manager : MonoBehaviour
         event_manager.applyDamage(damageDealt);
 
     }
-
-
     public void setCan_Input(bool set)
     {
         can_input = set;
