@@ -19,8 +19,17 @@ public class Player_Input_Manager : MonoBehaviour
 
     [SerializeField] private bool player1_done;
     [SerializeField] private bool player2_done; //these signify if the players have finished their inputs
-
     private bool can_input;
+
+    //Sounds------------------------
+    public AK.Wwise.Event p_miss;
+    public AK.Wwise.Event p_defend;
+    public AK.Wwise.Event p_charge;
+    public AK.Wwise.Event p1_attack;
+    public AK.Wwise.Event p2_attack;
+    public AK.Wwise.Event p1_special;
+    public AK.Wwise.Event p2_special;
+    //------------------------------
 
     [SerializeField] private Event_Manager event_manager;
 
@@ -31,7 +40,6 @@ public class Player_Input_Manager : MonoBehaviour
     [SerializeField] private bool timeUp;
 
     [SerializeField] private bool initialize = true;
-
 
     //At the moment, there are 6 entries, 0,1,2 correspond to player 1's attack,defend,special respectively. The latter are palyer 2's
     private List<Arrow[]> arrow_list = new List<Arrow[]>();
@@ -122,6 +130,7 @@ public class Player_Input_Manager : MonoBehaviour
         //if (softlockSum == -6) event_manager.Next_Turn(); //soft lock, players incorrectly input all combinations
 
         //if both players are done, change turn
+        if (softlockSum == -6) p_miss.Post(gameObject);
         if (player1_done && player2_done || softlockSum == -6 || timeUp)
         {
             endTurn();
@@ -158,9 +167,12 @@ public class Player_Input_Manager : MonoBehaviour
             if (player1_dir == (int)(current_arrow.getRotation()) / 90 && player1_progress[i] != -1)
             {
                 player1_progress[i]++;
-
-                if (!player1_done && player1_progress[i] == max_arrows) accumulateDamage(i);
-
+                p_charge.Post(gameObject);
+                if (!player1_done && player1_progress[i] == max_arrows) 
+                {
+                    accumulateDamage(i);
+                    playMoveSound(i, true);
+                }
                 player1_done = player1_progress[i] == max_arrows ? true : player1_done;
                 player1_progress[i] = Mathf.Min(player1_progress[i], max_arrows - 1);
                 current_arrow.setColor(Color.white);
@@ -203,9 +215,12 @@ public class Player_Input_Manager : MonoBehaviour
             if (player2_dir == (int)(current_arrow.getRotation()) / 90 && player2_progress[i] != -1)
             {
                 player2_progress[i]++;
-
-                if (!player2_done && player2_progress[i] == max_arrows) accumulateDamage(i);
-
+                p_charge.Post(gameObject);
+                if (!player2_done && player2_progress[i] == max_arrows) 
+                {   
+                    accumulateDamage(i);
+                    playMoveSound(i, true);
+                }
                 player2_done = player2_progress[i] == max_arrows ? true : player2_done;
                 player2_progress[i] = Mathf.Min(player2_progress[i], max_arrows - 1);
                 current_arrow.setColor(Color.white);
@@ -247,7 +262,36 @@ public class Player_Input_Manager : MonoBehaviour
         player1_done = false;
         player2_done = false;
     }
+    private void playMoveSound(int index, bool player_1) {
 
+        switch (index)
+        {
+            case 0:
+                if (player_1)
+                {
+                    p1_attack.Post(gameObject);
+                }
+                else {
+                    p2_attack.Post(gameObject);
+                }
+                break;
+            case 1:
+                p_defend.Post(gameObject);
+                break;
+            case 2:
+                if (player_1)
+                {
+                    p1_special.Post(gameObject);
+                }
+                else {
+                    p2_special.Post(gameObject);
+                }
+                
+                break;
+            default:
+                break;
+        }
+    }
     private void accumulateDamage(int index) {
         int addend = 0;
         switch (index)

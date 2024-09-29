@@ -19,7 +19,7 @@
 		<GenerateContentTxtFile>true</GenerateContentTxtFile>
 		<GenerateMetadataXML>true</GenerateMetadataXML>
 		<GenerateMetadataJSON>true</GenerateMetadataJSON>
-		<GenerateAllBanksMetadata>false</GenerateAllBanksMetadata>
+		<GenerateAllBanksMetadata>true</GenerateAllBanksMetadata>
 		<GeneratePerBankMetadata>true</GeneratePerBankMetadata>
 		<UseSoundBankNames>true</UseSoundBankNames>
 		<AllowExceedingMaxSize>false</AllowExceedingMaxSize>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>true</PrintObjectGuid>
 		<PrintObjectPath>true</PrintObjectPath>
 	</Settings>
-	<FileHash>{A8A141CC-8313-E0B6-A6B7-3B9CC5BAB972}</FileHash>
+	<FileHash>{305FAD23-BBEE-7CA0-2FCE-9EE036BE6256}</FileHash>
 </PlatformInfo>

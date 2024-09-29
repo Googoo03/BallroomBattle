@@ -11,6 +11,8 @@ public class Enemy_Manager : MonoBehaviour
     private const int max_health = 500;
     private int damageDealt;
 
+    public AK.Wwise.Event growl;
+
     [SerializeField] private Event_Manager event_manager;
     [SerializeField] private GameObject health_bar;
     void Start()
@@ -30,6 +32,7 @@ public class Enemy_Manager : MonoBehaviour
 
     void takeTurn()
     {
+        growl.Post(gameObject);
 
         //play animation
 

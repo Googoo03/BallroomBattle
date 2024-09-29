@@ -31,6 +31,7 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateMainSoundBank" Type="bool" Value="True" />
 				<Property Name="GenerateSoundBankXML" Type="bool" Value="True" />
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="..\Assets\StreamingAssets\Audio\GeneratedSoundBanks" />

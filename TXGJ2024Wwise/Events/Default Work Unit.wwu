@@ -31,20 +31,10 @@
 				</Event>
 				<Event Name="music_play" ID="{77CE683E-5599-4A87-BDCF-1442AAFAF4A5}">
 					<ChildrenList>
-						<Action Name="" ID="{895E673E-53EA-4E12-87FE-93C9F912F874}" ShortID="860766498">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="menu" ID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}" WorkUnitID="{323EAB96-3303-447D-B615-660ECF28A27E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{309832DA-3CD8-4240-ADB3-22D085F1E60F}" ShortID="854801358">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="dead or alive" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+									<ObjectRef Name="music player" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -64,7 +54,7 @@
 										<EventActionException Name="" ID="{7A940C36-E537-4A67-9814-400067EF6336}">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="dead or alive" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+													<ObjectRef Name="music player" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
 												</Reference>
 											</ReferenceList>
 										</EventActionException>
@@ -127,6 +117,9 @@
 									</ReferenceList>
 								</Action>
 								<Action Name="" ID="{7B83D286-EBE0-4254-A6C2-6688998B4BD7}" ShortID="174713729">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="monster_state" ID="{B079AC06-2D6D-47DF-A669-B579F92A2006}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>

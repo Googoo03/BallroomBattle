@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{580B87DD-A692-47ED-B588-B898810CDCE0}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicSwitchContainer Name="dead or alive" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" ShortID="146522155">
+				<MusicSwitchContainer Name="music player" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" ShortID="146522155">
 					<PropertyList>
 						<Property Name="MakeUpGain" Type="Real64">
 							<ValueList>
@@ -38,8 +38,41 @@
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{B22C72A5-3C39-4643-B806-A105B5FFC465}">
 											<PropertyList>
-												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{EF320870-D5D4-47CA-A211-19140867FB5B}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="win" ID="{CD2B5BFE-BFC7-4B13-8B26-BE4CA4403E5F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="battle" ID="{99CBB8B4-B0F5-4674-9AD9-982801C1AE25}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+												</Reference>
+											</ReferenceList>
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{12B99552-E8AC-4565-94DB-DDDB0258701A}">
+											<PropertyList>
+												<Property Name="DestinationContextType" Type="int16" Value="2"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="SourceContextType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="DestinationContextObject">
+													<ObjectRef Name="dead" ID="{6DD59D9C-02EF-46C0-BEA1-321440A5D038}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+												</Reference>
+												<Reference Name="SourceContextObject">
+													<ObjectRef Name="battle" ID="{99CBB8B4-B0F5-4674-9AD9-982801C1AE25}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+												</Reference>
+											</ReferenceList>
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -62,8 +95,10 @@
 										<Value>3</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="114"/>
+								<Property Name="Tempo" Type="Real64" Value="95"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}",
     "Language": "SFX",
-    "Hash": "{88854FD5-0AF9-0B4B-EB68-6ACB3120C220}",
+    "Hash": "{389B4718-DEC7-C544-319F-DDA2FBF73772}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\game",
     "ShortName": "game",
     "Path": "game.bnk",
@@ -221,7 +221,7 @@
       {
        "Id": "219669364",
        "Name": "Compressor (Custom)",
-       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\dead or alive\\battle\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\music player\\battle\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
        "GUID": "{17E7127A-205D-4FDD-9120-2C204521F600}",
        "LibName": "Wwise Compressor",
        "LibId": "7077891"
@@ -229,7 +229,7 @@
       {
        "Id": "422229581",
        "Name": "Gain (Custom)",
-       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\dead or alive\\dead\\music_dead_LOOP\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\music player\\dead\\music_dead_LOOP\\[Effect Slot [0]: (Gain)]\\Gain (Custom)",
        "GUID": "{966709BA-A3A7-4BA7-BFBD-B8B33943911A}",
        "LibName": "Wwise Gain",
        "LibId": "9109507"
@@ -237,7 +237,7 @@
       {
        "Id": "604506936",
        "Name": "Compressor (Custom)",
-       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\dead or alive\\dead\\music_dead_LOOP\\[Effect Slot [1]: (Compressor)]\\Compressor (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\music player\\dead\\music_dead_LOOP\\[Effect Slot [1]: (Compressor)]\\Compressor (Custom)",
        "GUID": "{9BD3D33B-3D6E-4326-854C-34263D6A4001}",
        "LibName": "Wwise Compressor",
        "LibId": "7077891"
@@ -441,15 +441,6 @@
           "Id": "855159835"
          }
         ]
-       }
-      ],
-      "ActionSetState": [
-       {
-        "GroupId": "1926883983",
-        "Id": "2607556080",
-        "Name": "menu",
-        "ObjectPath": "\\States\\Default Work Unit\\scene\\menu",
-        "GUID": "{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"
        }
       ]
      },
@@ -661,6 +652,6 @@
     ]
    }
   ],
-  "FileHash": "{5B145F66-7277-5B83-8D03-56A9A52CA779}"
+  "FileHash": "{CC03D4D2-9932-01D1-FAC4-3F98CD672B7A}"
  }
 }

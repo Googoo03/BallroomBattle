@@ -68,7 +68,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="game" ID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+						<CurrentStateRef Name="menu" ID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
