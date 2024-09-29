@@ -177,7 +177,7 @@
 										</Action>
 										<Action Name="" ID="{D8DB5674-88AC-4106-A463-0FC2751C60D9}" ShortID="153896551">
 											<PropertyList>
-												<Property Name="Probability" Type="Real64" Value="20"/>
+												<Property Name="Probability" Type="Real64" Value="90"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -220,7 +220,7 @@
 										</Action>
 										<Action Name="" ID="{2B5FBA02-4857-4FC7-8366-586EA49F767B}" ShortID="11879908">
 											<PropertyList>
-												<Property Name="Probability" Type="Real64" Value="20"/>
+												<Property Name="Probability" Type="Real64" Value="90"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -275,6 +275,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="monster_attack" ID="{E20B44CB-480E-425B-84A8-AD903E94B217}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7C296BAE-E1B6-4337-BFE0-56ADB06FF11A}" ShortID="457498571">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="fight_start" ID="{E864184A-A356-4B3B-A357-4DFF6053DA27}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

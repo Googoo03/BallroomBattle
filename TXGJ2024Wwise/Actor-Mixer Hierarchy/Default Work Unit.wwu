@@ -814,6 +814,7 @@
 							<ChildrenList>
 								<Sound Name="monster_LOOP" ID="{A4F8D38F-F492-48FF-8A2C-0BC06DC97FC9}" ShortID="902441091">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
@@ -855,9 +856,20 @@
 								</Sound>
 								<Sound Name="monster_death" ID="{7B70CC75-1FE1-4E0B-BBEB-2CBE1C77D722}" ShortID="237244366">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
 												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
