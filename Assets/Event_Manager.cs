@@ -20,6 +20,8 @@ public class Event_Manager : MonoBehaviour
     [SerializeField] private GameObject timer;
     [SerializeField] private GameObject title_screen;
 
+    [SerializeField] private GameObject win_screen;
+
     [SerializeField] private bool pause = true;
 
     private float t_timer = 1;
@@ -59,6 +61,12 @@ public class Event_Manager : MonoBehaviour
                 title_screen.GetComponent<Animator>().SetTrigger("Open");
             }
             
+        }
+
+        if (boss.getHealth() <= 0) { 
+            pause = true;
+            //activate win screen
+            win_screen.GetComponent<Animator>().SetTrigger("Win");
         }
 
         if (pause) return;

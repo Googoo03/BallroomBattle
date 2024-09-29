@@ -61,4 +61,6 @@ public class Enemy_Manager : MonoBehaviour
         health -= damage;
         health_bar.GetComponent<Slider>().value = (float)health/(float)max_health;
     }
+
+    public int getHealth() { return health; }
 }
