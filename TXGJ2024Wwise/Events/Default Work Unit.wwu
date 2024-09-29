@@ -38,8 +38,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="p1_miss" ID="{B40B1F03-3D69-48A9-97B7-3F374008B0DA}"/>
-						<Event Name="p1_special" ID="{8C263D8F-97D5-4F66-86D8-998492030E64}"/>
+						<Event Name="p1_miss" ID="{B40B1F03-3D69-48A9-97B7-3F374008B0DA}">
+							<ChildrenList>
+								<Action Name="" ID="{EEF86436-AA30-4265-8FE7-F196FB7BFFEC}" ShortID="781661170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_1_charge_fail" ID="{8DB74A34-EEB9-4E8E-8356-9F8B28F512C6}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="p1_special" ID="{8C263D8F-97D5-4F66-86D8-998492030E64}">
+							<ChildrenList>
+								<Action Name="" ID="{BA8BADAF-9D0B-4809-905C-52C6531B05F6}" ShortID="1072865995">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="player_1_ability_special" ID="{57C839D7-2E1C-47BC-B695-BEF7F570AC0F}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="player2" ID="{A7E0398E-D0DE-4FD4-82D3-AAE11A04B643}" ShortID="747965071">
@@ -127,6 +147,57 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="music_play" ID="{77CE683E-5599-4A87-BDCF-1442AAFAF4A5}">
+					<ChildrenList>
+						<Action Name="" ID="{309832DA-3CD8-4240-ADB3-22D085F1E60F}" ShortID="854801358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dead or alive" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="gamestate" ID="{73C3A0E4-B677-43D3-B776-6061E3D2DADF}" ShortID="328356061">
+					<ChildrenList>
+						<Event Name="game_over" ID="{32283FE6-AB2D-47A2-AC52-BB95940713FE}">
+							<ChildrenList>
+								<Action Name="" ID="{4AE6A8D7-EF82-43AB-8345-53DF539B27CC}" ShortID="506882575">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<EventActionException Name="" ID="{7A940C36-E537-4A67-9814-400067EF6336}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="dead or alive" ID="{4CE1FA0D-7DD3-4DA0-A6A4-2011A6F3411F}" WorkUnitID="{580B87DD-A692-47ED-B588-B898810CDCE0}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+										<EventActionException Name="" ID="{240FFD40-D35C-4AE1-9C67-93140725E61E}">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="player__death" ID="{BD466E44-A459-4317-BF5A-C438D077FAF8}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+												</Reference>
+											</ReferenceList>
+										</EventActionException>
+									</ChildrenList>
+								</Action>
+								<Action Name="" ID="{4FF92A02-FAD1-4092-8EB4-8F86CD390805}" ShortID="20340952">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dead" ID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}" WorkUnitID="{323EAB96-3303-447D-B615-660ECF28A27E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}",
     "Language": "SFX",
-    "Hash": "{6F3300A7-3CE1-8BC1-234F-91ECC5F5E28A}",
+    "Hash": "{113126D4-D4D9-A5B0-7FA9-C03E19937A27}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\game",
     "ShortName": "game",
     "Path": "game.bnk",
@@ -24,12 +24,28 @@
       "CachePath": "E6/{E630111B-196C-D062-6844-DC6D7850E27D}.wem"
      },
      {
+      "Id": "125235987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "music_battle_intro.wav",
+      "CachePath": "29/{29D7792B-62E3-8C12-9FA8-C562643A9119}.wem"
+     },
+     {
       "Id": "341263056",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "player_2_charge_fail.wav",
       "CachePath": "27/{276EF5F5-957E-70A1-90C3-7241A2311337}.wem"
+     },
+     {
+      "Id": "399024014",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "music_dead_LOOP.wav",
+      "CachePath": "65/{65AE41B9-EDC0-7238-314D-47F0A1D019C4}.wem"
      },
      {
       "Id": "541110834",
@@ -46,6 +62,22 @@
       "Location": "Memory",
       "ShortName": "UI_button_press.wav",
       "CachePath": "05/{05A2375B-E7FC-1621-2EAC-7CB04C435B23}.wem"
+     },
+     {
+      "Id": "563561755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "music_battle_LOOP.wav",
+      "CachePath": "AC/{ACF6AC83-732B-C44D-284C-F08C89F2A1E0}.wem"
+     },
+     {
+      "Id": "574510169",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_1_charge_fail.wav",
+      "CachePath": "89/{89B1A0E4-A1D9-EACA-DBEB-5318FD4272BE}.wem"
      },
      {
       "Id": "594103466",
@@ -104,6 +136,14 @@
       "CachePath": "4C/{4C1BEA50-FB45-2059-9146-E69031ABF378}.wem"
      },
      {
+      "Id": "943361851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "player_1_ability_special.wav",
+      "CachePath": "DB/{DB1E1BF8-339D-BD7F-927B-CE285CAF1B2B}.wem"
+     },
+     {
       "Id": "975497945",
       "Language": "SFX",
       "Streaming": "false",
@@ -112,7 +152,121 @@
       "CachePath": "09/{09269E3D-0631-3056-F8D1-4DD2E08E1A1C}.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "99260016",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\dead or alive\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{E07B725C-CD8B-497C-BD5B-B46F6472706B}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "604506936",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Interactive Music Hierarchy\\Default Work Unit\\dead or alive\\dead\\music_dead_LOOP\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{9BD3D33B-3D6E-4326-854C-34263D6A4001}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
     "Events": [
+     {
+      "Id": "1432716332",
+      "Name": "game_over",
+      "ObjectPath": "\\Events\\Default Work Unit\\gamestate\\game_over",
+      "GUID": "{32283FE6-AB2D-47A2-AC52-BB95940713FE}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "1926883983",
+        "Id": "2044049779",
+        "Name": "dead",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\dead",
+        "GUID": "{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"
+       }
+      ]
+     },
+     {
+      "Id": "202194903",
+      "Name": "music_play",
+      "ObjectPath": "\\Events\\Default Work Unit\\music_play",
+      "GUID": "{77CE683E-5599-4A87-BDCF-1442AAFAF4A5}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "702482391",
+         "GUID": "{12957200-6D13-44B8-9060-484D86BD7E7B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "125235987"
+         },
+         {
+          "Id": "563561755"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "99260016"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "2044049779",
+         "GUID": "{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "399024014"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "604506936"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "2607556080",
+         "GUID": "{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "125235987"
+         },
+         {
+          "Id": "563561755"
+         }
+        ],
+        "PluginRefs": {
+         "Custom": [
+          {
+           "Id": "99260016"
+          }
+         ]
+        }
+       }
+      ]
+     },
      {
       "Id": "129085443",
       "Name": "p1_attack",
@@ -163,20 +317,28 @@
       "Name": "p1_miss",
       "ObjectPath": "\\Events\\Default Work Unit\\player1\\p1_miss",
       "GUID": "{B40B1F03-3D69-48A9-97B7-3F374008B0DA}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.4204482",
+      "DurationMax": "0.59460354",
+      "MediaRefs": [
+       {
+        "Id": "574510169"
+       }
+      ]
      },
      {
       "Id": "1566201372",
       "Name": "p1_special",
       "ObjectPath": "\\Events\\Default Work Unit\\player1\\p1_special",
       "GUID": "{8C263D8F-97D5-4F66-86D8-998492030E64}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.938438",
+      "DurationMax": "1.3271518",
+      "MediaRefs": [
+       {
+        "Id": "943361851"
+       }
+      ]
      },
      {
       "Id": "3016763366",
@@ -279,9 +441,43 @@
        }
       ]
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1926883983",
+      "Name": "scene",
+      "ObjectPath": "\\States\\Default Work Unit\\scene",
+      "GUID": "{993E7625-02F3-4518-90C2-C8AE85EE1584}",
+      "States": [
+       {
+        "Id": "702482391",
+        "Name": "game",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\game",
+        "GUID": "{12957200-6D13-44B8-9060-484D86BD7E7B}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\None",
+        "GUID": "{4306E4C3-52B0-4A7F-97CE-93785F390E0D}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "dead",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\dead",
+        "GUID": "{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "menu",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\menu",
+        "GUID": "{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{20878CA6-111C-896C-CD3B-B5B19B844E24}"
+  "FileHash": "{C4565AC6-18AD-3937-59F3-CAE9310590AC}"
  }
 }

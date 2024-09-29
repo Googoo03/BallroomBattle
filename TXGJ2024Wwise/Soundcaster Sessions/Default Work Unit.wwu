@@ -1,6 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BC02419F-4763-4758-A279-F219C3563E5D}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{BC02419F-4763-4758-A279-F219C3563E5D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BC02419F-4763-4758-A279-F219C3563E5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{F80EDC68-AC2C-4ACD-A54F-C1DFABB8EB6E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="music_play" ID="{77CE683E-5599-4A87-BDCF-1442AAFAF4A5}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="player__death" ID="{BD466E44-A459-4317-BF5A-C438D077FAF8}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="game_over" ID="{32283FE6-AB2D-47A2-AC52-BB95940713FE}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_charge" ID="{BB319181-B2C5-4C56-95E4-EB8D97E92220}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_attack" ID="{C78EBB24-AFB1-4159-ADD4-C3811A26942F}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_defend" ID="{B9E4F855-E396-45C0-A4DC-4CA2FAAD1644}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_special" ID="{8C263D8F-97D5-4F66-86D8-998492030E64}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p1_miss" ID="{B40B1F03-3D69-48A9-97B7-3F374008B0DA}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_charge" ID="{B0048644-4FED-4A49-9F3C-2479CDCDABE5}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_attack" ID="{2A7C3144-EF94-4265-98CD-9006B601614F}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_defend" ID="{18AA1A5A-7310-4899-A960-39DBDFAF1BB9}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_special" ID="{5F67AADF-955B-4767-9B86-1B1467078B43}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="p2_miss" ID="{A2B3EADD-E752-4314-84FA-7C10213AA25A}" WorkUnitID="{9582B9A2-F485-4C53-9A46-4A1F1BFE5873}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_button_press" ID="{B5BD86F8-3EC7-4F85-8E38-964A601A685C}" WorkUnitID="{55FA3FA3-8125-42C1-892B-310A4BC21C8D}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="game" ID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

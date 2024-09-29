@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1926883983	scene			\Default Work Unit\scene	
+
+State	ID	Name	State Group			Notes
+	702482391	game	scene			
+	748895195	None	scene			
+	2044049779	dead	scene			
+	2607556080	menu	scene			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	

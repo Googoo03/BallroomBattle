@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{7D01E5C4-B307-EC2B-1548-ADB382CDDA8D}",
+    "Hash": "{4BC4351E-AEA0-4765-4A9B-B720BFA8E147}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -40,6 +40,40 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1926883983",
+      "Name": "scene",
+      "ObjectPath": "\\States\\Default Work Unit\\scene",
+      "GUID": "{993E7625-02F3-4518-90C2-C8AE85EE1584}",
+      "States": [
+       {
+        "Id": "702482391",
+        "Name": "game",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\game",
+        "GUID": "{12957200-6D13-44B8-9060-484D86BD7E7B}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\None",
+        "GUID": "{4306E4C3-52B0-4A7F-97CE-93785F390E0D}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "dead",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\dead",
+        "GUID": "{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "menu",
+        "ObjectPath": "\\States\\Default Work Unit\\scene\\menu",
+        "GUID": "{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -508,6 +542,6 @@
     ]
    }
   ],
-  "FileHash": "{2FF674C2-316D-6CC7-BD6A-587D52243154}"
+  "FileHash": "{00ADA15D-D78B-03B7-4E85-EE0B4CAEDBCD}"
  }
 }
