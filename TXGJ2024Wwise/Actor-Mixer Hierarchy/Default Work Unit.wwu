@@ -674,6 +674,43 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="scene" ID="{993E7625-02F3-4518-90C2-C8AE85EE1584}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="menu" ID="{CD579F7E-2A8C-42F0-BF3E-2454CC17EB3B}"/>
+										<CustomState Name="" ID="{2A794EED-5A7A-44FE-88B6-6A875B4F5123}" ShortID="39848915">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="game" ID="{12957200-6D13-44B8-9060-484D86BD7E7B}"/>
+										<CustomState Name="" ID="{125C934D-0612-456D-9CED-154893BAAACE}" ShortID="512031263"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="dead" ID="{B8C3FD2C-FAB7-4674-9A53-9A45A5E4C3D5}"/>
+										<CustomState Name="" ID="{9DBDF978-1480-45D5-B9DD-B2DB46C65BD0}" ShortID="434494906">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="win" ID="{FB83AE52-3BD6-4D7F-9612-1F97885BF2FC}"/>
+										<CustomState Name="" ID="{52C13E95-4AA9-49A1-A4F0-66903FD03DDB}" ShortID="613883934">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
 						<SwitchContainer Name="monster_state" ID="{B079AC06-2D6D-47DF-A669-B579F92A2006}" ShortID="37746695">
 							<PropertyList>
