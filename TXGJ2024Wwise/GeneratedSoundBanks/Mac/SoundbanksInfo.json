@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}",
     "Language": "SFX",
-    "Hash": "{9B351D64-4C27-F265-1EB4-78FAE8940AC4}",
+    "Hash": "{98E265D6-847D-F8E6-6CF7-846508E15BB9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\game",
     "ShortName": "game",
     "Path": "game.bnk",
@@ -371,6 +371,14 @@
        },
        {
         "Id": "973067515"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "1037822516",
+        "Name": "fight_start",
+        "ObjectPath": "\\Events\\Default Work Unit\\gamestate\\fight_start",
+        "GUID": "{E864184A-A356-4B3B-A357-4DFF6053DA27}"
        }
       ]
      },
@@ -1202,6 +1210,6 @@
     ]
    }
   ],
-  "FileHash": "{02474FAD-1D92-4E90-1A7C-DBB77A2A1A6E}"
+  "FileHash": "{84BC01E3-1AFE-AADF-434B-3F139EA683A6}"
  }
 }

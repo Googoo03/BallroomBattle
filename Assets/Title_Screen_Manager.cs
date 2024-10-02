@@ -30,7 +30,6 @@ public class Title_Screen_Manager : MonoBehaviour
 
     public void exitGame() {
         button_press.Post(null);
-        UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }

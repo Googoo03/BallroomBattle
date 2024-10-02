@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="153">
 	<SoundBanks>
-		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{9B351D64-4C27-F265-1EB4-78FAE8940AC4}">
+		<SoundBank Id="702482391" Type="User" GUID="{5D68C562-04C6-444F-A3CD-EA5DA9D903F8}" Language="SFX" Hash="{98E265D6-847D-F8E6-6CF7-846508E15BB9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\game</ObjectPath>
 			<ShortName>game</ShortName>
 			<Path>game.bnk</Path>
@@ -155,6 +155,9 @@
 						<MediaRef Id="909762582"/>
 						<MediaRef Id="973067515"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1037822516" Name="fight_start" ObjectPath="\Events\Default Work Unit\gamestate\fight_start" GUID="{E864184A-A356-4B3B-A357-4DFF6053DA27}"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="202194903" Name="music_play" ObjectPath="\Events\Default Work Unit\music_play" GUID="{77CE683E-5599-4A87-BDCF-1442AAFAF4A5}" DurationType="Infinite">
 					<SwitchContainers>
@@ -267,5 +270,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4B8F1AC3-FD4C-5331-48D0-68BD551B55F1}</FileHash>
+	<FileHash>{AFCD743C-C0C5-169F-051E-09C460026762}</FileHash>
 </SoundBanksInfo>
